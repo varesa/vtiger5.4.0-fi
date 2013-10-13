@@ -30,5 +30,8 @@ $mod_strings = array(
 	'LBL_OK_BUTTON_LABEL'=>'Ok',
 	'LBL_SELECT_ROLES'=>'Valitse roolit',
 	'LBL_DISPLAYED_VALUES'=>'Kaikki arvot joihin roolillasi on oikeus, näkyvät alapuolella',
+	
+	'LBL_PICKLIST_DEPENDENCY_SETUP'=>'Valintalistan riippuvuudet',
+	
 );
 ?>
