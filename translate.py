@@ -30,6 +30,12 @@ en2 = list(os.path.join(x[0], x[1]) for x in english)
 fi2 = list(os.path.join(x[0], x[1]) for x in finnish)
 
 for file in en2:
+
+    print("\n" + "#"*(len(file)+4))
+    print("# " + file + " #")
+    print("#"*(len(file)+4) + "\n")
+    time.sleep(2)
+    
     outfile = ""
     if file.replace("en_us", "fi_fi") in fi2:
 	for line in open(file):
