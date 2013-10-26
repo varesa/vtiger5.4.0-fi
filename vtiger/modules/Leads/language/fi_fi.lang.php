@@ -1,9 +1,9 @@
 <?php
 /*********************************************************************************
  * The contents of this file are subject to the SugarCRM Public License Version 1.1.2
- * ("License"); You may not use this file except in compliance with the
+ * ('License'); You may not use this file except in compliance with the
  * License. You may obtain a copy of the License at http://www.sugarcrm.com/SPL
- * Software distributed under the License is distributed on an  "AS IS"  basis,
+ * Software distributed under the License is distributed on an  'AS IS'  basis,
  * WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for
  * the specific language governing rights and limitations under the License.
  * The Original Code is:  SugarCRM Open Source
@@ -39,8 +39,10 @@ $mod_strings = Array(
 'LBL_LEAD_INFORMATION'=>'Liidin tiedot',
 'LBL_FIRST_NAME'=>'Etunimi:',
 'LBL_PHONE'=>'Puhelin:',
+'LBL_PHONE'=>'Puhelin:',
 'LBL_COMPANY'=>'Yritys:',
 'LBL_DESIGNATION'=>'Tavaranimike:',
+'LBL_PHONE'=>'Puhelin:',
 'LBL_PHONE'=>'Puhelin:',
 'LBL_LAST_NAME'=>'Sukunimi:',
 'LBL_MOBILE'=>'Matkapuhelin:',
@@ -78,11 +80,10 @@ $mod_strings = Array(
 'NTC_REMOVE_CONFIRMATION'=>'Haluatko varmasti poistaa tämän yhteyshenkilön tästä tapauksesta?',
 'NTC_REMOVE_DIRECT_REPORT_CONFIRMATION'=>'Are you sure you want to remove this record as a direct report?',
 'NTC_REMOVE_OPP_CONFIRMATION'=>'Haluatko varmasti poistaa tämän yhteyshenkilön tästä mahdollisuudesta?',
-'ERR_DELETE_RECORD'=>"fi_fi A record number must be specified to delete the contact.",
 'NTC_COPY_PRIMARY_ADDRESS'=>'Kopioi ensisijainen osoite vaihtoehtoiseen osoitteeseen',
 'NTC_COPY_ALTERNATE_ADDRESS'=>'Kopioi vaihtoehtoinen osoite ensisijaiseen osoitteseen',
 
-// Added fields in fetchfile.php, import.php -- crm4-Beta
+// Added vtiger_fields in fetchfile.php, import.php -- crm4-Beta
 'LBL_COLON'=>' : ', 
 'LBL_IMPORT_LEADS'=>'Tuo liidit',
 'LBL_LEADS_FILE_LIST'=>'Liidien tiedostolista',
@@ -238,7 +239,8 @@ $mod_strings = Array(
 //Module Sequence Numbering
 'Lead No'=>'Liidin Nro',
 // END
-     
+
+
 );
 
 ?>

@@ -1,9 +1,9 @@
 <?php
 /*********************************************************************************
  * The contents of this file are subject to the SugarCRM Public License Version 1.1.2
- * ("License"); You may not use this file except in compliance with the
+ * ('License'); You may not use this file except in compliance with the
  * License. You may obtain a copy of the License at http://www.sugarcrm.com/SPL
- * Software distributed under the License is distributed on an  "AS IS"  basis,
+ * Software distributed under the License is distributed on an  'AS IS'  basis,
  * WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for
  * the specific language governing rights and limitations under the License.
  * The Original Code is:  SugarCRM Open Source
@@ -14,7 +14,7 @@
  ********************************************************************************/
 /*********************************************************************************
  * $Header: /advent/projects/wesat/vtiger_crm/sugarcrm/modules/Dashboard/language/en_us.lang.php,v 1.4 2005/01/25 06:01:38 jack Exp $
- * Description:  Defines the English language pack for the Account module.
+ * Description:  Defines the English language pack for the DashBoard module.
  * Portions created by SugarCRM are Copyright (C) SugarCRM, Inc.
  * All Rights Reserved.
  * Contributor(s): ______________________________________..
@@ -51,38 +51,12 @@ $mod_strings = Array(
 'LBL_DATE_START'=>'Aloitus päivä:',
 'LBL_DATE_END'=>'Lopetus päivä:',
 //Added for 5.0 
-'LBL_NO_PERMISSION'=>'Sinulla ei ole oikeutta katsoa tämän moduulin kuvaajia',
-'LBL_NO_PERMISSION_FIELD'=>'Sinulla ei ole oikeutta katsoa tämän moduulin tai sen kentän, kuvaajia',
+'LBL_NO_PERMISSION'=>'Sorry, you don\'Sinulla ei ole oikeutta katsoa tämän moduulin kuvaajia',
+'LBL_NO_PERMISSION_FIELD'=>'Sorry, you don\'Sinulla ei ole oikeutta katsoa tämän moduulin tai sen kentän, kuvaajia',
 
-"leadsource" => "Liidit alkuperittäin",
-"leadstatus" => "Liidit tilanteittain",
-"leadindustry" => "Liidit elinkeinoaloittaan",
-"salesbyleadsource" => "Myynti liidin alkuperän mukaan",
-"salesbyaccount" => "Myynti asiakaittain",
-"salesbyuser" => "Myynti käyttäjittäin",
-"salesbyteam"=>"Myynti ryhmittäin",
-"accountindustry" => "Asiakaat elinkeinoaloittain",
-"productcategory" => "Tuotteet tuoteryhmittäin",
-"productbyqtyinstock" => "Tuotteet varastomäärän mukaan",
-"productbypo" => "Tuotteet ostotilauksittain",
-"productbyquotes" => "Tuotteet tarjouksittain",
-"productbyinvoice" => "Tuotteet laskuittain",
-"sobyaccounts" => "Myyntitilaukset asiakkaittain",
-"sobystatus" => "Myyntitilaukset tilanteittain",
-"pobystatus" => "Ostotilaukset tilanteittain",
-"quotesbyaccounts" => "Tarjoukset asiakaittain",
-"quotesbystage" => "Tarjoukset tilanteittain",
-"invoicebyacnts" => "Laskut asiakaittain",
-"invoicebystatus" => "Laskut tilanteittain",
-"ticketsbystatus" => "Pyynöt tilanteittain",
-"ticketsbypriority" => "Pyynnöt tärkeysasteittain",
-"ticketsbycategory" => "Pyynnöt kategorioittain",
-"ticketsbyuser"=>"Pyynnöt käyttäjittäin",
-"ticketsbyteam"=>"Pyynnöt ryhmittäin",
-"ticketsbyproduct"=>"Pyynnöt tuotteittain",
-"contactbycampaign"=>"Yhteystiedot kampanjittain",
-"ticketsbyaccount"=>"Pyynnöt asiakkaittain",
-"ticketsbycontact"=>"Pyynnöt yhteystiedoittain",
+'leadsource' => 'Liidit lähteen mukaan', // Translated 26.10.2013
+'leadstatus' => 'Liidit tilan mukaan', // Translated 26.10.2013
+'leadindustry' => 'Liidit alan mukaan', // Translated 26.10.2013
 
 'LBL_DASHBRD_HOME'=>'Kuvaajien etusivu',
 'LBL_HORZ_BAR_CHART'=>'Vaaka-palkki kuvaaja',
@@ -96,95 +70,6 @@ $mod_strings = Array(
 'LBL_DASHBOARD'=>'Kaaviot',
 
 // Added/Updated for vtiger CRM 5.0.4
-"Approved"=>"Hyväksytty",
-"Created"=>"Luotu",
-"Cancelled"=>"Peruutettu",
-"Delivered"=>"Toimitettu",
-"Received Shipment"=>"Vastaanotetut toimitukset",
-"Sent"=>"Lähetä",
-"Credit Invoice"=>"Saatavat laskut",
-"Paid"=>"Maksa",
-"Un Assigned"=>"Ohjaamaton",
-"Cold Call"=>"Puhelinsoitto",
-"Existing Customer"=>"Vanha asiakas",
-"Self Generated"=>"Itse haettu",
-"Employee"=>"Työntekijä",
-"Partner"=>"Yhteistyökumppani",
-"Public Relations"=>"Julkiset suhteet",
-"Direct Mail"=>"Sähköposti",
-"Conference"=>"Kokous",
-"Trade Show"=>"Messut",
-"Web Site"=>"Kotisivut",
-"Word of mouth"=>"Puskaradio",
-"Other"=>"Muu",
-"--None--"=>"-Ei mikään-",
-"Attempted to Contact"=>"Yritetty kontaktia",
-"Cold"=>"Kylmä",
-"Contact in Future"=>"Kontaktoi myöhemmin",
-"Contacted"=>"Kontaktoitu",
-"Hot"=>"Kuuma",
-"Junk Lead"=>"Turha liidi",
-"Lost Lead"=>"Hävitty liidi",
-"Not Contacted"=>"Ei kontaktoitu",
-"Pre Qualified"=>"Esi-hyväksytty",
-"Qualified"=>"Hyväksytty",
-"Warm"=>"Lämmin",
-"Apparel"=>"Vaatetusala",
-"Banking"=>"Pankkiala",
-"Biotechnology"=>"Bioteknologia",
-"Chemicals"=>"Kemianteollisuus",
-"Communications"=>"Viestintä",
-"Construction"=>"Rakennusala",
-"Consulting"=>"Konsultointi",
-"Education"=>"Koulutus",
-"Electronics"=>"Elektroniikka",
-"Energy"=>"Energia",
-"Engineering"=>"Insinööriala",
-"Entertainment"=>"Viihde",
-"Environmental"=>"Ympäristö",
-"Finance"=>"Rahoitus",
-"Food & Beverage"=>"Elintarvike",
-"Government"=>"Hallitus",
-"Healthcare"=>"Terveydenhoito",
-"Hospitality"=>"Sairaala",
-"Insurance"=>"Vakuutus",
-"Machinery"=>"Koneistusala",
-"Manufacturing"=>"Valmistus",
-"Media"=>"Media",
-"Not For Profit"=>"Yhdistys",
-"Recreation"=>"Virkistys",
-"Retail"=>"Jälleenmyynti",
-"Shipping"=>"Rahti",
-"Technology"=>"Teknologia",
-"Telecommunications"=>"Televiestintä",
-"Transportation"=>"Liikennöinti",
-"Utilities"=>"Laitokset",
-"Hardware"=>"Tietokone laitteet",
-"Software"=>"Tietokone ohjelmistot",
-"CRM Applications"=>"CRM sovellukset",
-"Open"=>"Avoin",
-"In Progress"=>"Tekeillä",
-"Wait For Response"=>"Odottaa",
-"Closed"=>"Suljettu",
-"Low"=>"Matala",
-"Normal"=>"Normaali",
-"High"=>"Korkea",
-"Urgent"=>"Kiireellinen",
-"Big Problem"=>"Iso ongelma",
-"Small Problem"=>"Pieni ongelma",
-"Other Problem"=>"Muu ongelma",
-"Accepted"=>"Hyväksy",
-"Rejected"=>"Hylätty",
-"Prospecting"=>"Prospekti",
-"Qualification"=>"Ehdollinen",
-"Needs Analysis"=>"Tarvitsee tutkia",
-"Value Proposition"=>"Arvokas esitys",
-"Id. Decision Makers"=>"Päättäjillä",
-"Perception Analysis"=>"Kattava tutkimus",
-"Proposal/Price Quote"=>"Ehdotus",
-"Negotiation/Review"=>"Neuvottelu",
-"Closed Won"=>"Voitettu",
-"Closed Lost"=>"Hävitty",
 
 );
 

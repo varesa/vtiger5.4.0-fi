@@ -1,9 +1,9 @@
 <?php
 /*********************************************************************************
  * The contents of this file are subject to the SugarCRM Public License Version 1.1.2
- * ("License"); You may not use this file except in compliance with the
+ * ('License'); You may not use this file except in compliance with the
  * License. You may obtain a copy of the License at http://www.sugarcrm.com/SPL
- * Software distributed under the License is distributed on an  "AS IS"  basis,
+ * Software distributed under the License is distributed on an  'AS IS'  basis,
  * WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for
  * the specific language governing rights and limitations under the License.
  * The Original Code is:  SugarCRM Open Source
@@ -14,7 +14,7 @@
  ********************************************************************************/
 /*********************************************************************************
  * $Header: /advent/projects/wesat/vtiger_crm/sugarcrm/modules/Users/language/en_us.lang.php,v 1.18 2005/04/19 14:45:38 ray Exp $
- * Description:  Defines the English language pack for the Account module.
+ * Description:  Defines the English language pack for the Users module.
  ********************************************************************************/
  
 $mod_strings = Array(
@@ -48,7 +48,6 @@ $mod_strings = Array(
 
 
 //added for patch2
-'LBL_GROUP_NAME'=>'Ryhmä',
 'LBL_CURRENCY_NAME'=>'Valuutta',
 
 'LBL_NEW_USER_BUTTON_TITLE'=>'Lisää käyttäjä [Alt+N]',
@@ -111,7 +110,7 @@ $mod_strings = Array(
 'ERR_ENTER_OLD_PASSWORD'=>'Anna vanha salasana.',
 'ERR_ENTER_NEW_PASSWORD'=>'Anna uusi salasana.',
 'ERR_ENTER_CONFIRMATION_PASSWORD'=>'Anna salasanan vahvistus.',
-'ERR_REENTER_PASSWORDS'=>'Anna salasana uudelleen. \"Uusi salasana\" ja \"salasanan vahvistus\" eivät täsmää.',
+'ERR_REENTER_PASSWORDS'=>'Please re-enter passwords.  The \'new password\' and \'confirm password\'Anna salasana uudelleen. \"Uusi salasana\" ja \"salasanan vahvistus\" eivät täsmää.',
 'ERR_INVALID_PASSWORD'=>'Sinun on annettava tietty käyttäjätunnus ja salasana.',
 'ERR_PASSWORD_CHANGE_FAILED_1'=>'Salasanan vaihtaminen epäonnistui ',
 'ERR_PASSWORD_CHANGE_FAILED_2'=>' epäonnistui. Annettava uusi salasana.',
@@ -121,7 +120,6 @@ $mod_strings = Array(
 'ERR_LAST_ADMIN_1'=>'Käyttäjätunnus ',
 'ERR_LAST_ADMIN_2'=>' on viimeinen Admin-käyttäjä.  Vähintään yhden käyttäjän tulee olla Admin-käyttäjä.<br>Tarkista Admin-käyttäjä asetukset.',
 
-'ERR_DELETE_RECORD'=>"A record number must be specified to delete the account.",
 
 // Additional Fields for i18n --- Release vtigerCRM 3.2 Patch 2
 // Users--listroles.php , createrole.php , ListPermissions.php , editpermissions.php
@@ -206,19 +204,21 @@ $mod_strings = Array(
 'LBL_PROPERTIES'=>'Ominaisuudet',
 
 
+//added to fix the issue #6630
 
 // Added fields in createnewgroup.php
 'LBL_CREATE_NEW_GROUP'=>'Luo uusi ryhmä',
 'LBL_NEW_GROUP'=>'Uusi ryhmä',
 'LBL_EDIT_GROUP'=>'Muokkaa ryhmää',
+'LBL_GROUP_NAME'=>'Ryhmä',
 'LBL_GROUP_NAME'=>'Ryhmän nimi',
 'LBL_GROUP_DETAILS'=>'Ryhmän kuvaus',
 'LBL_MEMBER'=>'Jäsenet',
 'LBL_MEMBER_AVLBL'=>'Mahdolliset jäsenet',
 'LBL_MEMBER_SELECTED'=>'Valitut jäsenet',
 'LBL_GROUP_MESG1'=>'Ryhmät ovat joustava tapa ohjata käyttöoikeuksia, kun pitää luoda monimutkaisia määrityksiä. Voit yhdistää monia kokonaisuuksia kuten rooleja, käyttäjiä, profiileja yms yhdeksi ryhmäksi.',
-'LBL_GROUP_MESG2'=>'Lisätäksesi, valitse kohteen jäsenet vasemmalta ja paina ">>" painiketta.',
-'LBL_GROUP_MESG3'=>'Poistaaksesi, valitse kohteen jäsenet oikealta ja paina "<<" painiketta.',
+'LBL_GROUP_MESG2'=>'To add, select the Entity members from left and click the '>>'Lisätäksesi, valitse kohteen jäsenet vasemmalta ja paina ">>" painiketta.',
+'LBL_GROUP_MESG3'=>'To remove, select the group members from the right and click the '<<'Poistaaksesi, valitse kohteen jäsenet oikealta ja paina "<<" painiketta.',
 
 
 // Added fields in detailViewmailtemplate.html,listgroupmembers.php,listgroups.php
@@ -551,7 +551,6 @@ $mod_strings = Array(
 'Date Format'=>'Päiväyksen muoto',
 'Tag Cloud'=>'Tagi pilvi',
 'Signature'=>'Allekirjoitus',
-'Notes'=>'Dokumentit',
 'Street Address'=>'Katuosoite',
 'City'=>'Kaupunki',
 'State'=>'Lääni',
@@ -617,7 +616,7 @@ $mod_strings = Array(
 'LBL_IMAP4'=>'IMAP4',
 'LBL_POP'=>'POP',
 'LBL_IMAP'=>'IMAP',
-'LBL_MAIL_DISCLAIM'=>' Punaisella merkityt kohdat <font color="red">*</font> ovat pakollisia',
+'LBL_MAIL_DISCLAIM'=>'Items marked with <font color='red' Punaisella merkityt kohdat <font color="red">*</font> ovat pakollisia',
 'LBL_SSL_OPTIONS'=>'SSL asetukset',
 'LBL_TLS'=>'TLS',
 'LBL_NO_TLS'=>'Ei TLS',
@@ -677,6 +676,14 @@ $mod_strings = Array(
 //user-group fixes
 'LBL_GROUPNAME_EXIST' => 'Tämän niminen ryhmä on jo olemassa!',
 'LBL_PROFILENAME_EXIST' => 'Tämän niminen profiili on jo olemassa!',
+
+//Fixed For Asterisk Configration
+
+// Added for Create Custom Fields 
+
+//Time zones-Dont change any value
+    
+	
 );
 
 ?>

@@ -1,9 +1,9 @@
 <?php
 /*********************************************************************************
  * The contents of this file are subject to the SugarCRM Public License Version 1.1.2
- * ("License"); You may not use this file except in compliance with the
+ * ('License'); You may not use this file except in compliance with the
  * License. You may obtain a copy of the License at http://www.sugarcrm.com/SPL
- * Software distributed under the License is distributed on an  "AS IS"  basis,
+ * Software distributed under the License is distributed on an  'AS IS'  basis,
  * WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for
  * the specific language governing rights and limitations under the License.
  * The Original Code is:  SugarCRM Open Source
@@ -13,8 +13,8 @@
  * Contributor(s): ______________________________________.
  ********************************************************************************/
 /*********************************************************************************
- * $Header: /cvsroot/vtigercrm/vtiger_crm/modules/Campaigns/language/en_us.lang.php,v 1.1 2006/01/24 15:43:37 indigoleopard $
- * Description:  Defines the English language pack
+ * $Header$
+ * Description:  Defines the English language pack for Campaign Module
  * Portions created by SugarCRM are Copyright (C) SugarCRM, Inc.
  * All Rights Reserved.
  * Contributor(s): ______________________________________..
@@ -81,11 +81,11 @@ $mod_strings = Array(
 'Good'=>'Hyvä',
 'Average'=>'Keskinkertainen',
 'Poor'=>'Heikko',
-
+			      
 //Module Sequence Numbering
 'Campaign No'=>'Kampanjan nro',
+// status fields 
 // END
-
 );
 
 ?>

@@ -1,9 +1,9 @@
 <?php
 /*********************************************************************************
  * The contents of this file are subject to the SugarCRM Public License Version 1.1.2
- * ("License"); You may not use this file except in compliance with the
+ * ('License'); You may not use this file except in compliance with the
  * License. You may obtain a copy of the License at http://www.sugarcrm.com/SPL
- * Software distributed under the License is distributed on an  "AS IS"  basis,
+ * Software distributed under the License is distributed on an  'AS IS'  basis,
  * WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for
  * the specific language governing rights and limitations under the License.
  * The Original Code is:  SugarCRM Open Source
@@ -14,7 +14,7 @@
  ********************************************************************************/
 /*********************************************************************************
  * $Header: /advent/projects/wesat/vtiger_crm/sugarcrm/modules/Emails/language/en_us.lang.php,v 1.17 2005/03/28 06:31:38 rank Exp $
- * Description:  Defines the English language pack for the Account module.
+ * Description:  Defines the English language pack for the Emails module.
  ********************************************************************************/
  
 $mod_strings = Array(
@@ -33,7 +33,6 @@ $mod_strings = Array(
 'LBL_LIST_DATE'=>'Lähetyspäivä',
 'LBL_LIST_TIME'=>'Lähetysaika',
 
-'ERR_DELETE_RECORD'=>"A record number must be specified to delete the account.",
 'LBL_DATE_SENT'=>'Lähetyspäivä:',
 'LBL_DATE_AND_TIME'=>'Lähetys päivä ja aika:',
 'LBL_DATE'=>'Lähetyspäivä:',
@@ -98,7 +97,7 @@ $mod_strings = Array(
 'LBL_NEW_ACCOUNT'=>'Uusi asiakas',
 'LBL_ACCOUNT_TITLE'=>'Asiakkaat',
 
-// Added fields after vtiger4 - Beta
+// Added vtiger_fields after vtiger4 - Beta
 'LBL_USER_TITLE'=>'Käyttäjät',
 'LBL_NEW_USER'=>'Uusi käyttäjä',
 
@@ -117,7 +116,7 @@ $mod_strings = Array(
 'Modified Time'=>'Muokkausaika',
 
 'MESSAGE_CHECK_MAIL_SERVER_NAME'=>'Tarkista sähköpostipalvelimen nimi...',
-'MESSAGE_CHECK_MAIL_ID'=>'Tarkista sähköpostista vastaanottajan nimi...',
+'MESSAGE_CHECK_MAIL_ID'=>'Please Check the Email Id of 'Assigned To'Tarkista sähköpostista vastaanottajan nimi...',
 'MESSAGE_MAIL_HAS_SENT_TO_USERS'=>'Viesti on lähetetty seuraaville käyttäjille :',
 'MESSAGE_MAIL_HAS_SENT_TO_CONTACTS'=>'Viesti on lähetetty seuraaville yhteystiedoille :',
 'MESSAGE_MAIL_ID_IS_INCORRECT'=>'Sähköpostin tunnus on epäkelpo, tarkista se...',
@@ -138,7 +137,6 @@ $mod_strings = Array(
 'LBL_IN_SUBJECT'=>'Otsikossa',
 'LBL_IN_SENDER'=>'Aiheessa',
 'LBL_IN_SUBJECT_OR_SENDER'=>'Otsikossa tai aiheessa',
-'CHOSE_EMAIL'=>'Valitse viestin tunniste',
 'Sender'=>'Lähettäjä',
 'LBL_CONFIGURE_MAIL_SETTINGS'=>'Saapuvan postin palvelin ei ole määritetty',
 'LBL_MAILSELECT_INFO1'=>'Nämä sähköpostiosoitteet liittyvät kohteeseen.',
@@ -146,6 +144,7 @@ $mod_strings = Array(
 'LBL_MULTIPLE'=>'Monelle',
 'LBL_COMPOSE_EMAIL'=>'Uusi viesti',
 'LBL_VTIGER_EMAIL_CLIENT'=>'vTiger Webmail Client',
+'LBL_VTIGER_EMAIL_CLIENT'=>'vTiger sähköpostiohjelma',
 
 //Added for 5.0.3
 'TITLE_VTIGERCRM_MAIL'=>'vTigerCRM sähköposti',
@@ -160,14 +159,15 @@ $mod_strings = Array(
 'LBL_BCC_EMAIL_ERROR'=>'Piilokopio kentässä oleva osoite ei ole kelvollinen',
 'LBL_NO_RCPTS_EMAIL_ERROR'=>'Vastaanottajaa ei ole määritelty',
 'LBL_CONF_MAILSERVER_ERROR'=>'Määrittele lähtevänpostipalvelimen asetukset kohdasta Asetukset ---> Lähteväpostipalvelin',
+'LBL_VTIGER_EMAIL_CLIENT'=>'vTiger Webmail Client',
 'LBL_VTIGER_EMAIL_CLIENT'=>'vTiger sähköpostiohjelma',
 'LBL_MAILSELECT_INFO3'=>'You don\'t have permission to view email id(s) of the selected Record(s).',
 //Added  for script alerts
-'FEATURE_AVAILABLE_INFO' => 'Tämä ominaisuus on käytössä vain Microsoft Internet Explorer 5.5+ käyttäjillä, 
-odota päivitystä!',
+'FEATURE_AVAILABLE_INFO' => 'This feature is currently only available for Microsoft Internet Explorer 5.5+ users\n\nWait f
+or an update!',
 'DOWNLOAD_CONFIRAMATION' => 'Haluatko ladata tiedoston?',
 'LBL_PLEASE_ATTACH' => 'Valitse kelvollinen tiedosto liitteeksi ja yritä uudelleen.',
-'LBL_KINDLY_UPLOAD' => 'Aseta <font color="red">upload_tmp_dir</font> muuttuja php.ini tiedostoon.',
+'LBL_KINDLY_UPLOAD' => 'Please configure <font color='red'Aseta <font color="red">upload_tmp_dir</font> muuttuja php.ini tiedostoon.',
 'LBL_EXCEED_MAX' => 'Valitettavasti lataamasi tiedosto ylittää sallitut kokorajoitukset. Lataa tiedosto joka on pienempi kuin  ',
 'LBL_BYTES' => ' tavua.',
 'LBL_CHECK_USER_MAILID' => 'Tarkista nykyisen käyttäjän sähköpostiosoite. Sen pitää olla kelvollinen jotta voit lähettää viestejä.',
