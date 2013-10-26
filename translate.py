@@ -65,7 +65,11 @@ for file in en2:
 	    else: # A non-translation line
 		outfile += line
 	
-	print(outfile)
+	#print(outfile)
+	out = open(file.replace('en_us', 'fi_fi'), 'w')
+	out.write(outfile)
+	out.close()
+	
 		        
     else:
 	print("File: " + file + " not found in finnish")
