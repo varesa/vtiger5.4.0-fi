@@ -44,6 +44,7 @@ for file in en2:
 		    if not r2 is None:
 			print("Found translation for \"" + r.group(2) + "\" (" + r.group(1) + "): " + r2.group(2))
 			translated = 1
+			outfile += re.sub(r"(.*'.*'.*=>.*').*('.*)", r"\g<1>" + r2.group(2) + r"\g<2>", line)
 			
 		if translated is 0:
 		    print("No Finnish translation")
@@ -52,6 +53,16 @@ for file in en2:
 			translation = raw_input()
 		    except NameError:
 		        translation = str(input())
+		        
+		    if translation != "":
+			print("Translated: " + r.group(1) + ": " + r.group(2) + " => " + translation)
+			outfile += re.sub(r"(.*'.*'.*=>.*').*('.*)", r"\1" + translation + r"\2",line)
+			print("x")
+		
+	    else: # A non-translation line
+		outfile += line
+	
+	print(outfile)
 		        
     else:
 	print("File: " + file + " not found in finnish")
