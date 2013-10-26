@@ -1,3 +1,5 @@
+#!/bin/env python
+
 import os
 import sys
 import re
@@ -56,7 +58,7 @@ for file in en2:
 		        
 		    if translation != "":
 			print("Translated: " + r.group(1) + ": " + r.group(2) + " => " + translation)
-			outfile += re.sub(r"(.*'.*'.*=>.*').*('.*)", r"\1" + translation + r"\2",line)
+			outfile += re.sub(r"(.*'.*'.*=>.*').*('.*)", r"\1" + translation + r"\2",line) + " // Translated "
 			print("x")
 		
 	    else: # A non-translation line
