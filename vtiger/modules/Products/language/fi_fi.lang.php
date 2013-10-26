@@ -1,12 +1,12 @@
 <?php
-/*+**********************************************************************************
+/*********************************************************************************
  * The contents of this file are subject to the vtiger CRM Public License Version 1.0
  * ("License"); You may not use this file except in compliance with the License
  * The Original Code is:  vtiger CRM Open Source
  * The Initial Developer of the Original Code is vtiger.
  * Portions created by vtiger are Copyright (C) vtiger.
  * All Rights Reserved.
- ************************************************************************************/
+  ********************************************************************************/
 
 $mod_strings = Array(
 'LBL_MODULE_NAME'=>'Hakijat',
@@ -22,7 +22,6 @@ $mod_strings = Array(
 'LBL_PRICEBOOK_INFORMATION'=>'Hinnaston tiedot:',
 'LBL_VENDOR_ADDRESS_INFORMATION'=>'Osoite tiedot:',
 'LBL_DESCRIPTION_INFORMATION'=>'Kuvauksen nimi:',
-'LBL_DESCRIPTION_INFORMATION'=>'Kuvauksen tiedot',
 'LBL_PRICING_INFORMATION'=>'Hinnoittelun tiedot:',
 'LBL_STOCK_INFORMATION'=>'Varastotiedot:',
 'LBL_LIST_FORM_TITLE'=>'Hakijalista',
@@ -42,7 +41,6 @@ $mod_strings = Array(
 'LBL_NEW_FORM_TITLE'=>'Uusi hakija',
 'LBL_PRODUCT_INFORMATION'=>'Hakijan tiedot',
 'LBL_CUSTOM_INFORMATION'=>'Asiakastiedot',
-'LBL_DESCRIPTION_INFORMATION'=>'Kuvauksen nimi:',
 'LBL_DESCRIPTION_INFORMATION'=>'Kuvauksen tiedot',
 
 //New entry
@@ -56,6 +54,7 @@ $mod_strings = Array(
 'LBL_ATTACH_FILE'=>'Liitä tiedosto',
 'LBL_DESCRIPTION'=>'Kuvaus',
 'LBL_FILE'=>'Tiedostonnimi',
+
 
 //for v4 release added
 'LBL_NEW_POTENTIAL'=>'Uusi mahdollisuus',
@@ -73,7 +72,7 @@ $mod_strings = Array(
 'LBL_NEW_ATTACHMENT'=>'Uusi liitetiedosto',
 'LBL_ATTACHMENT_TITLE'=>'Liitetiedostot',
 
-//Added vtiger_fields after RC1 - Release
+//Added fields after RC1 - Release
 'LBL_MANUFACTURER'=>'Valmistaja',
 'LBL_PRODUCTCATEGORY'=>'Hakijaryhmä',
 'LBL_SUPPORT_START_DATE'=>'Tuen alkamispäivä',
@@ -81,7 +80,6 @@ $mod_strings = Array(
 'LBL_PURCHASE_DATE'=>'Julkaisupäivä',
 
 //Added for 4GA
-'Product Name'=>'Hakija',
 'Product Name'=>'Hakija',
 //'Product Code'=>'Osan numero',
 'Part Number'=>'Osan numero',
@@ -112,7 +110,6 @@ $mod_strings = Array(
 'Product Sheet'=>'Tuotekuvasto',
 'Qty In Demand'=>'Varattu',
 'GL Account'=>'Kirjanpito tili',
-'GL Account'=>'Kirjanpito tili',
 'Vendor Name'=>'Toimittaja',
 
 //Mapping for Name
@@ -121,7 +118,6 @@ $mod_strings = Array(
 'Phone'=>'Puhelin',
 'Email'=>'Sähköposti',
 'Website'=>'Kotisivu',
-'GL Account'=>'Kirjanpito tili',
 'GL Account'=>'Kirjanpito tili',
 'Category'=>'Ryhmä',
 'Street'=>'Katuosoite',
@@ -134,7 +130,6 @@ $mod_strings = Array(
 
 //Mapping for price book
 'Price Book Name'=>'Hinnasto',
-'Product Name'=>'Hakija',
 'Product Name'=>'Hakija',
 'Active'=>'Aktiivinen',
 
@@ -221,7 +216,6 @@ $mod_strings = Array(
 // END
 
 'LBL_NO_TAXES_ASSOCIATED'=>'Tälle hakijalle ei ole määritetty veroa',
-
 );
 
 ?>

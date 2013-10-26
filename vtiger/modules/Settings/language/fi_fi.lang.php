@@ -28,9 +28,9 @@
 
 /*********************************************************************************
 
- * $Header: /advent/projects/custprojects/vtigercrm/vtigersupport/vtiger_crm/modules/Settings/language/en_us.lang.php,v 1.2 2007/07/06 09:55:40 rajeshkannan Exp $
+ * $Header: /advent/projects/wesat/vtiger_crm/sugarcrm/modules/Settings/language/en_us.lang.php,v 1.28 2005/04/21 15:35:33 ray Exp $
 
- * Description:  Defines the English language pack for Settings
+ * Description:  Defines the English language pack
 
  * Portions created by SugarCRM are Copyright (C) SugarCRM, Inc.
 
@@ -162,6 +162,10 @@ $mod_strings = Array(
 
 'Activities'=>'Tehtävä',
 
+
+
+
+
 'CustomFields'=>' Omat kentät',
 
 'NewCustomField'=>'Uusi oma kenttä',
@@ -197,7 +201,7 @@ $mod_strings = Array(
 
 'LBL_PROVIDE_FIELD_INFORMATION'=>'Luotavan kentän tiedot: ',
 
-'LBL_SELECT_FIELD_TYPE'=>'Kentän tyyppi: ',
+'LBL_SELECT_FIELD_TYPE'=>'Kentän tyyppi: ', 
 
 'LBL_PROVIDE_FIELD_DETAILS'=>'Kentän yksityiskohdat: ',
 
@@ -250,6 +254,7 @@ $mod_strings = Array(
 'Skype'=>'Skype',
 
 
+
 //added for patch2
 
 'USERGROUPLIST'=>'Ryhmät',
@@ -262,7 +267,6 @@ $mod_strings = Array(
 
 'NOTIFICATIONSCHEDULERS'=>'Muistutusten asetukset',
 //currency status
-'LBL_ACTIVE'=>'Aktiivinen',
 'LBL_ACTIVE'=>'Aktiivinen',
 
 'LBL_INACTIVE'=>'Toimeton',
@@ -490,9 +494,7 @@ $mod_strings = Array(
 'LBL_SALES_STAGE'=>'Myynnin tila',
 
 'LBL_PRIORITY'=>'Kiireellisyysaste',
-'LBL_PRIORITY'=>'Tärkeys',
 
-'LBL_STATUS'=>'Tila',
 'LBL_STATUS'=>'Tila',
 
 'LBL_CATEGORY'=>'Ryhmittely',
@@ -534,9 +536,7 @@ $mod_strings = Array(
 'LBL_INT_MAILER_USE'=>'Kyllä',
 'LBL_INT_MAILER_NOUSE'=>'Ei',
 'LBL_VAL_SSL_CERT'=>'Validoi SSL sertifikaatti',
-'LBL_VAL_SSL_CERT'=>'Kelvollinen SSL Certificate',
 'LBL_DONOT_VAL_SSL_CERT'=>'Älä validoi SSL sertifikaattia',
-'LBL_DONOT_VAL_SSL_CERT'=>'Epäkelpo SSL Certificate',
 'LBL_WEB_MAIL_CONFIG'=>'Webmailin asetukset',
 'LBL_CONFIGURE_WEB_MAIL'=>' - Konfiguroi Web Maili',
 'LBL_LIST_MAIL_ACCOUNT'=>'  Listaa sähköpostitilit',
@@ -608,7 +608,7 @@ $mod_strings = Array(
 //For Custom Fields
 'LBL_LEAD_MAP_CUSTOM_FIELD'=>'Map Lead Custom Fields',
 'leadCustomFieldDescription'=>'Map each of your organizations lead custom fields to each of your custom account
-,contact, or Opportunity fields. These mappings will be used when you convert leads',
+,contact, or potential fields. These mappings will be used when you convert leads',
 'LBL_MAPPING_INFO'=>'Vertailutiedot',
 'LBL_ACCOUNT_FIELD'=>'Asiakas kenttä',
 'LBL_CONTACT_FIELD'=>'Yhteyshenkilö kenttä',
@@ -670,8 +670,8 @@ $mod_strings = Array(
 'LBL_REQUIRE_SMTP_AUTHENTICATION'=>'Tarvitsee SMTP Autentikoinnin?',
 'LBL_ANNOUNCEMENT'=>'Ilmoitukset',
 'LBL_SETTING_ANNOUNCEMENT'=>'Ilmoitukset',
-'LBL_UPDATE_BUTTON'=>'Päivitä',
 'LBL_ANNOUNCEMENT_INFO'=>'Kirjoita tiedoitus (näkyy sivun yläosassa), ja paina Tallenna-painiketta.',
+'LBL_UPDATE_BUTTON'=>'Päivitä',
 'LBL_ANNOUNCEMENT_INFO'=>'Kirjoita ilmoituksesi alapuolelle ja paina Päivitä-painiketta.',
 'LBL_ANNOUNCEMENT_DESC'=>'Vaihda teksti, joka näkyy jokaisen sivun ylälaidassa ilmoituksessa',
 'LBL_EMAIL_CONTENTS'=>'Sähköpostin sisältö',
@@ -704,7 +704,7 @@ $mod_strings = Array(
 'LBL_BASE_CURRENCY'=>'Perus valuutta - ',
 'LBL_DELETE_CURRENCY'=>'Poista valuutta',
 
-//Added for singlepane view in modules
+//Added for singlepane view in modules 
 
 'LBL_DEFAULT_DETAIL_VIEW'=>'Yksityiskohtainen oletusnäkymä',
 'LBL_DEFAULT_MODULE_VIEW'=>'Moduulin oletusnäkymä',
@@ -713,8 +713,6 @@ $mod_strings = Array(
 
 'LBL_CLEAR_DATA'=>'Tyhjennä tiedot',
 'LBL_ENABLE'=>'Sallittu',
-'LBL_ENABLE'=>'Salli',
-'LBL_ENABLE'=>'Salli',
 'LBL_FAQ_FIELD_ACCESS'=>'Pääsy FAQ kenttään',
 'LBL_ADD_TAX_BUTTON'=>'Lisää vero',
 'LBL_NO_TAXES_AVAILABLE'=>'Veroja ei ole saatavilla',
@@ -842,7 +840,7 @@ $mod_strings = Array(
 'LBL_USR_CAN_ACCESS'=>'Käyttäjät voivat ',
 'LBL_USR_OTHERS'=>' muut käyttäjät ',
 'LBL_USR_CANNOT_ACCESS'=>'Käyttäjät eivät pääse muiden käyttäjien tietoihin ',
-
+ 
 'LBL_ORG_SHARING_PRIVILEGES'=>'Organisaation jako-oikeudet',
 'LBL_EDIT_PERMISSIONS'=>'Muokkaa oikeuksia',
 'LBL_SAVE_PERMISSIONS'=>'Tallenna oikeudet',
@@ -850,13 +848,10 @@ $mod_strings = Array(
 'LBL_EDIT_CREATE_ONLY'=>'Oikeudet: Luku, Luonti / Muokkaus',
 'LBL_READ_CREATE_EDIT_DEL'=>'Oikeuduet: Luku, Luonti / Muokkaus, Poisto',
 'LBL_PRIVATE'=>'Yksityinen',
-
+ 
 'Public: Read Only'=>'Avoin: Vain luku',
-
 'Public: Read, Create/Edit'=>'Avoin: Luku, Luonti / Muokkaus',
-
 'Public: Read, Create/Edit, Delete'=>'Avoin: Luonti / Muokkaus, Poisto',
-
 'Private'=>'Yksityinen',
 'Hide Details'=>'Piilota yksityiskohdat',
 'Hide Details and Add Events'=>'Piilota yksityiskohdat ja tapahtuman lisäys',
@@ -896,10 +891,7 @@ $mod_strings = Array(
 'LBL_MAILSENDERROR'=>'Viestiä ei voitu lähettää pääkäyttäjälle. Tarkista pääkäyttäjän sähköpostiosoite / Palvelimen asetukset',
 'LBL_RECORD_NOEXIST'=>'Tietuetta ei löydy',
 'LBL_ENTER_PROFILE'=>'Anna profiilin nimi',
-'LBL_ENABLE'=>'Sallittu',
 'LBL_ENABLE'=>'Salli',
-'LBL_ENABLE'=>'Salli',
-'LBL_DISABLE'=>'Estä',
 'LBL_DISABLE'=>'Estä',
 'LBL_PROXY'=>'proxy',
 'LBL_FIELDS_TO_BE_SHOWN'=>'Näytettävät kentät',
@@ -939,6 +931,7 @@ $mod_strings = Array(
 'ERR_ALREADY_EXISTS'=>' on jo olemassa.',
 'ERR_SPECIFY_DIFFERENT_LABEL'=>'Muuta kentän nimeä',
 'LBL_TOOLS_TO_BE_SHOWN'=>'Näytettävät työkalut',
+'LBL_PICKLIST_GLOBAL_DELETE'=>'Globaali poisto',
 'LBL_PICKLIST_TRANSFER'=>'Siirretään arvot ',
 'LBL_REPLACE_VALUE_WITH'=>'Korvataan arvot ',
 'LBL_EDIT_CUSTOM_RULE'=>'Muokkaa omien oikeuksien sääntöjä',
@@ -956,7 +949,6 @@ $mod_strings = Array(
 
 'LBL_GENERAL_FIELDS'=>'Yleiset kentät',
 
-'LBL_CANCEL_BUTTON'=>'Peruuta',
 'LBL_CANCEL_BUTTON'=>'Peruuta',
 
 //Added fields for Inventory Number labels
@@ -1017,16 +1009,10 @@ $mod_strings = Array(
 'LBL_TYPE' => 'Muoto',
 'LBL_SSL' => 'SSL',
 'LBL_METHOD'=> 'Metodi',
-'LBL_VAL_SSL_CERT'=>'Validoi SSL sertifikaatti',
 'LBL_VAL_SSL_CERT'=>'Kelvollinen SSL Certificate',
-'LBL_DONOT_VAL_SSL_CERT'=>'Älä validoi SSL sertifikaattia',
 'LBL_DONOT_VAL_SSL_CERT'=>'Epäkelpo SSL Certificate',
 'LBL_STATUS'=>'Tila',
-'LBL_STATUS'=>'Tila',
-'LBL_ENABLE'=>'Sallittu',
 'LBL_ENABLE'=>'Salli',
-'LBL_ENABLE'=>'Salli',
-'LBL_DISABLE'=>'Estä',
 'LBL_DISABLE'=>'Estä',
 'LBL_CONNECT'=>'Yhdistä',
 'LBL_URL_CAPS'=>'URL',
@@ -1038,7 +1024,6 @@ $mod_strings = Array(
 'LBL_FROM'=>'Keneltä',
 'LBL_TO'=>'Kenelle',
 
-'LBL_ACTION'=>'Toiminto',
 'LBL_ACTION'=>'Toiminto',
 'LBL_CREATE'=>'Luo',
 'LBL_TICKET'=>'Pyyntö',
@@ -1066,11 +1051,9 @@ $mod_strings = Array(
 'LBL_ANY'=>'Ei mitään',
 'LBL_CONDITION'=>'Ehto',
 'LBL_ACTION'=>'Toiminto',
-'LBL_ACTION'=>'Toiminto',
 'LBL_MOVE'=>'Siirrä',
 'LBL_UP'=>'Ylös',
 'LBL_DOWN'=>'Alas',
-'LBL_PRIORITY'=>'Kiireellisyysaste',
 'LBL_PRIORITY'=>'Tärkeys',
 'LBL_UPDATE'=>'Päivitä',
 'LBL_SELECT'=>'Valitse',
@@ -1126,7 +1109,6 @@ $mod_strings = Array(
 'ASTERISK_PORT_TITLE'=>'Portti jonka kautta Asterisk call manager API voi yhdistää Asteriskiin (oletuksena 5038)',
 'ASTERISK_USERNAME_TITLE'=>'Asterisk käyttäjätunnus (yleensä admin käyttäjätunnus)',
 'ASTERISK_PASSWORD_TITLE'=>'Asterisk käyttäjän salasana',
-'LBL_CANCEL_BUTTON'=>'Peruuta',
 'LBL_CANCEL_BUTTON'=>'Peruuta',
 'ASTERISK_VERSION' => 'Asterisk Versio',
 'ASTERISK_VERSION_TITLE'=>'Valitse tästä Asterisk versiosi; Jätä se versioksi 1.4 jollet tiedä varmuudella.',
@@ -1185,7 +1167,6 @@ $mod_strings = Array(
 'LBL_EDIT_PROPERTIES' => 'Muokkaa asetuksia',
 'LBL_MANDATORY_FIELD' => 'Pakollinen kenttä',
 'LBL_ACTIVE' => 'Aktiivinen',
-'LBL_ACTIVE' => 'Aktiivinen',
 'LBL_QUICK_CREATE' => 'Luo nopeasti',
 'LBL_MASS_EDIT' => 'Muokkaa kaikkia',
 'LBL_BLOCK_NAME' => 'Eston nimi',
@@ -1216,33 +1197,13 @@ $mod_strings = Array(
 'PORTAL_EXTENSION_DESCRIPTION'=>'Sallii sinun määrittää Asiakasportaali-lisäosa',
 'LBL_CUSTOMER_PORTAL'=> 'Asiakasportaali',
 
+//FieldFormulas
+'LBL_FIELDFORMULAS' => 'Field Formulas',
+'LBL_FIELDFORMULAS_DESCRIPTION' => 'Add custom equations to custom fields',
+'LBL_CRM_SETTINGS'  => 'vTiger asetukset',
 
-
-// Customization
-'LBL_DEFAULT'=>'Oletus',
-'LBL_OPTIONS1'=>'Send emails from your mail server<br>
-				- Enter the SMTP account details (Server Name, User Name, Password) for the same account as entered in the FROM email address.',
-'LBL_OPTIONS2'=>"Add od1.vtiger.com server as a authorized sender for your domain.<br>
-				- If you prefer to retain the vtiger server as the outgoing server, we recommend that you configure your domain's SPF record to include the vtiger server as a valid sender for your domain.
-				  For additonal instruction on setting up SPF record, please email od-support@vtiger.com .",
-// END
-'LBL_USER_ADDITION_INFO'=>"To add a new user, please click on
-			   <span style='font-style:italic;color:blue;'>Settings Icon -> On Demand Admin -> Add User </span>",
-
-
-
-
-// For Dependency picklist
 'LBL_PICKLIST_DEPENDENCY_SETUP' => 'Valintalistan riippuvuudet',
-
-'LBL_EDIT_COMPANY_INFO' => "To edit company details, please click on
-			   <span style='font-style:italic;color:blue;'>Settings Icon > On Demand Admin > Company </span>",
-
-
-
-'LBL_MENU_EDITOR'=>'Valikkoeditori',
-
-'LBL_CRM_SETTINGS' => 'vTiger asetukset',
+'LBL_MENU_EDITOR' => 'Valikkoeditori',
 
 );
 ?>

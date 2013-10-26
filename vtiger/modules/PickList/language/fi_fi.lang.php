@@ -17,7 +17,6 @@ $mod_strings = array(
 	'LBL_EXISTING_PICKLIST_VALUES'=>'Olemassaolevat valintalistan arvot',
 	'LBL_PICKLIST_ADDINFO'=>'Lisää uudet merkinnät tähän',
 	'LBL_SELECT_ROLES'=>'Valitse roolit',
-	'LBL_SELECT_ROLES'=>'Valitse roolit',
 	'LBL_NON_EDITABLE_PICKLIST_ENTRIES'=>'Arvot joita ei voi muokata',
 	'EDIT_PICKLIST_VALUE'=>'Muokkaa valintalistan arvoja',
 	'LBL_EDIT_HERE'=>'Korvaa: ',
@@ -30,12 +29,9 @@ $mod_strings = array(
 	'LBL_ADD_TO_OTHER_ROLES'=>'Lisää muita rooleja',
 	'LBL_OK_BUTTON_LABEL'=>'Ok',
 	'LBL_SELECT_ROLES'=>'Valitse roolit',
-	'LBL_SELECT_ROLES'=>'Valitse roolit',
 	'LBL_DISPLAYED_VALUES'=>'Kaikki arvot joihin roolillasi on oikeus, näkyvät alapuolella',
 	
-	// For Dependency picklist
-	'LBL_PICKLIST_DEPENDENCY_SETUP' => 'Valintalistan riippuvuudet',
-	'LBL_CONFIGURE_DEPENDENCY_HELP_2' => "If you want to see or change the mapping for the other picklist values of Source field, <br/>
-										then you can select the values by clicking on <b>'Select Source values'</b> button on the right side",
+	'LBL_PICKLIST_DEPENDENCY_SETUP'=>'Valintalistan riippuvuudet',
+	
 );
 ?>

@@ -14,7 +14,7 @@
  ********************************************************************************/
 /*********************************************************************************
  * $Header: /advent/projects/wesat/vtiger_crm/sugarcrm/modules/Notes/language/en_us.lang.php,v 1.10 2005/03/28 06:33:37 rank Exp $
- * Description:  Defines the English language pack for the Documents module.
+ * Description:  Defines the English language pack for the Account module.
  * Portions created by SugarCRM are Copyright (C) SugarCRM, Inc.
  * All Rights Reserved.
  * Contributor(s): ______________________________________..
@@ -43,7 +43,7 @@ $mod_strings = Array(
 'LBL_COLON'=>':',
 
 'ERR_DELETE_RECORD'=>"A record number must be specified to delete the vtiger_account.",
-'LBL_LIST_FILENAME'=>"File Name",
+'LBL_LIST_FILENAME'=>"Tiedostonnimi",
 
 // Added for Note(3.2-patch 3) 
 
@@ -81,8 +81,6 @@ $mod_strings = Array(
 'LBL_FOLDER_NAME'=>'Kansion nimi',
 'LBL_DOWNLOAD_TYPE'=>'Lataustapa',
 'LBL_INTERNAL'=>'Sisäinen',
-'LBL_INTERNAL'=>'Sisäinen',
-'LBL_EXTERNAL'=>'Ulkoinen',
 'LBL_EXTERNAL'=>'Ulkoinen',
 'LBL_EXTERNAL_FILE_NAME'=>'Tiedostonnimi',
 'LBL_FILE_LOCATION'=>'Tiedoston sijainti',
@@ -90,9 +88,7 @@ $mod_strings = Array(
 'LBL_PIND'=>'Alusta riippumaton',
 'ChoosePlatform'=>'Valitse alusta',
 'LBL_ACTIVE'=>'Aktiivinen',
-'LBL_ACTIVE'=>'Aktiivinen',
 'LBL_INACTIVE'=>'Toimeton',
-'LBL_INACTIVE'=>'TOimeton',
 'LBL_UPLOAD_BUTTON'=>'Lataa',
 'architecture'=>'Arkkitehtuuri',
 'LBL_DOWNLOAD_FILE'=>'Lataa tiedosto',
@@ -109,14 +105,10 @@ $mod_strings = Array(
 'File Type'=>'Tiedostomuoto',
 'File Size'=>'Koko',
 'LBL_INTERNAL'=>'Sisäinen',
-'LBL_INTERNAL'=>'Sisäinen',
 'LBL_URL'=>'URL',
-'LBL_EXTERNAL'=>'Ulkoinen',
 'LBL_EXTERNAL'=>'Ulkoinen',
 'LBL_EXTERNAL_LNK'=>'Ulkoinen linkki',
 'LBL_ACTIVE'=>'Aktiivinen',
-'LBL_ACTIVE'=>'Aktiivinen',
-'LBL_INACTIVE'=>'Toimeton',
 'LBL_INACTIVE'=>'TOimeton',
 'LBL_PLATFORM_INDEPENDENT'=>'Alusta riippumaton',
 'LNK_DOWNLOAD'=>'lataa',
@@ -141,9 +133,6 @@ $mod_strings = Array(
 
 'LBL_MAXIMUM_20'=>'Enintään 20',
 'LBL_MAXIMUM_50'=>'Enintään 50',
-
-// Added after 5.1.0 GA
-
 );
 
 ?>

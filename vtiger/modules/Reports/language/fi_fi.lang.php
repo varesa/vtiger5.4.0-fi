@@ -13,8 +13,8 @@
  * Contributor(s): ______________________________________.
  ********************************************************************************/
 /*********************************************************************************
- * $Header:
- * Description:  Defines the English language pack for the Reports module.
+ * $Header: /cvsroot/vtigercrm/vtiger_crm/modules/Reports/language/en_us.lang.php,v 1.1 2005/05/30 09:51:13 venkatraj Exp $
+ * Description:  Defines the English language pack for the Account module.
  * Portions created by SugarCRM are Copyright (C) SugarCRM, Inc.
  * All Rights Reserved.
  * Contributor(s): ______________________________________..
@@ -78,7 +78,7 @@ $mod_strings = Array(
 'LBL_EXPORTXL_BUTTON'=>'Vie Exceliin',
 
 //Added for 5 Beta
-'LBL_NO_PERMISSION'=>'Your profile dosen\'Profiilillasi ei ole oikeutta nähdä raportteja jo(i)stakin moduul(e)ista.',
+'LBL_NO_PERMISSION'=>'Profiilillasi ei ole oikeutta nähdä raportteja jo(i)stakin moduul(e)ista.',
 'LBL_SELECT_COLUMNS_TO_GENERATE_REPORTS'=>'Valitse sarakkeet luodaksesi niistä raportti',
 'LBL_AVAILABLE_FIELDS'=>'Mahdolliset kentät',
 'LBL_SELECTED_FIELDS'=>'Valitut kentät',
@@ -126,7 +126,7 @@ $mod_strings = Array(
 'PurchaseOrder Reports'=>'Osto raportit',
 'SalesOrder Reports'=>'Myynti raportit', //Added for SO
 'Invoice Reports'=>'Lasku raportit',
-'Campaign Reports'=>'Kampanja raportit', //Added for Campaigns
+'Campaign Reports'=>'Kampanja raportit', //Added for Campaigns 
 'Contacts by Accounts'=>'Yhteyshenkilöt asiakkuuksittain',
 'Contacts without Accounts'=>'Yhteyshenkilöt ilman asiakkuuksia',
 'Contacts by Potentials'=>'Yhteyshenkilöt mahdollisuuksittain',
@@ -163,10 +163,10 @@ $mod_strings = Array(
 'Create_Reports'=>'Luo raportti',
 'Create_New_Folder'=>'Luo uusi kansio',
 'Move_Reports'=>'Siirrä raportit',
-'Delete_Report'=>'Poista raportti',
+'Delete_Report'=>'Poista raportti', 
 
 'Custom'=>'Mukautettu',
-'Previous FY'=>'Edellinen tilikausi',
+'Previous FY'=>'Edellinen tilikausi', 
 'Current FY'=>'Kuluva tilikausi',
 'Next FY'=>'Seuraava tilikausi',
 'Previous FQ'=>'Edellinen neljännes',
@@ -223,13 +223,6 @@ $mod_strings = Array(
 'LBL_FLDR_NOT_EMPTY'=>'Kansio jota yrität poistaa, ei ole tyhjä, siirrä tai poista raportti siitä.',
 'NO_REL_MODULES'=>'Valittuun moduliin ei liity muita moduleita',
 'LBL_REPORT_GENERATION_FAILED'=>'Raportin luominen epäonnistui!',
-
-'LBL_NONE'=> 'Ei mitään',
-
-
-
-
-//Report Charts
-)
+);
 
 ?>

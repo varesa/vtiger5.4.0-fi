@@ -1,49 +1,42 @@
-<?php 
-/********************************************************************************* 
- * The contents of this file are subject to the SugarCRM Public License  
-Version 1.1.2 
- * ("License"); You may not use this file except in compliance with the 
- * License. You may obtain a copy of the License at  
-http://www.sugarcrm.com/SPL 
- * Software distributed under the License is distributed on an  "AS IS"   
-basis, 
- * WITHOUT WARRANTY OF ANY KIND, either express or implied. See the  
-License for 
- * the specific language governing rights and limitations under the License. 
- * The Original Code is:  SugarCRM Open Source 
- * The Initial Developer of the Original Code is SugarCRM, Inc. 
- * Portions created by SugarCRM are Copyright (C) SugarCRM, Inc.; 
- * All Rights Reserved. 
- * Contributor(s): ______________________________________. 
- ********************************************************************************/ 
-/********************************************************************************* 
- * $Header$ 
- * Description:  Defines the English language pack for the Custom View.
- * Portions created by SugarCRM are Copyright (C) SugarCRM, Inc. 
- * All Rights Reserved. 
- * Contributor(s): ______________________________________.. 
- ********************************************************************************/ 
-$mod_strings = Array( 
-'LBL_MODULE_NAME'=>'Etusivu', 
-'LBL_STEP_1_TITLE'=>'Näytä tiedot', 
-'LBL_VIEW_NAME'=>'Näytä nimi:', 
-'LBL_SETDEFAULT'=>'Aseta oletukseksi', 
-'LBL_LIST_IN_METRICS'=>'Keskeiset luvut', 
-'LBL_STEP_2_TITLE'=>'Valitse sarakkeet', 
-'LBL_STEP_3_TITLE'=>'Oletus suodatus', 
-'LBL_STEP_4_TITLE'=>'Kehittynyt suodatus', 
-'LBL_STEP_5_TITLE'=>'Pääsytiedot', 
-'LBL_SF_COLUMNS'=>'Sarake', 
-'LBL_SF_STARTDATE'=>'Alkamispäivä', 
-'LBL_SF_ENDDATE'=>'Päättymispäivä', 
-'LBL_AF_HDR1'=>'Aseta hakuehdot rajoittaaksesi listausta.', 
-'LBL_AF_HDR2'=>'You can use &quot;or&quot; filters by entering multiple  
-items in the third column.', 
-'LBL_AF_HDR3'=>'You can enter up to 10 items, separated by commas. For  
-example: CA, NY, TX, FL searches for CA or NY or TX or FL.', 
-'LBL_AF_HDR4'=>'If "Activity Type" is selected, give any one of the  
-following values "Call","Meeting" or "Task".', 
- 
+<?php
+/*********************************************************************************
+ * The contents of this file are subject to the SugarCRM Public License Version 1.1.2
+ * ("License"); You may not use this file except in compliance with the
+ * License. You may obtain a copy of the License at http://www.sugarcrm.com/SPL
+ * Software distributed under the License is distributed on an  "AS IS"  basis,
+ * WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for
+ * the specific language governing rights and limitations under the License.
+ * The Original Code is:  SugarCRM Open Source
+ * The Initial Developer of the Original Code is SugarCRM, Inc.
+ * Portions created by SugarCRM are Copyright (C) SugarCRM, Inc.;
+ * All Rights Reserved.
+ * Contributor(s): ______________________________________.
+ ********************************************************************************/
+/*********************************************************************************
+ * $Header: /cvsroot/vtigercrm/vtiger_crm/modules/CustomView/language/en_us.lang.php,v 1.1 2005/05/26 19:02:13 venkatraj Exp $
+ * Description:  Defines the English language pack for the Account module.
+ * Portions created by SugarCRM are Copyright (C) SugarCRM, Inc.
+ * All Rights Reserved.
+ * Contributor(s): ______________________________________..
+ ********************************************************************************/
+$mod_strings = Array(
+'LBL_MODULE_NAME'=>'Etusivu',
+'LBL_STEP_1_TITLE'=>'Näytä tiedot',
+'LBL_VIEW_NAME'=>'Näytä nimi:',
+'LBL_SETDEFAULT'=>'Aseta oletukseksi',
+'LBL_LIST_IN_METRICS'=>'Keskeiset luvut',
+'LBL_STEP_2_TITLE'=>'Valitse sarakkeet',
+'LBL_STEP_3_TITLE'=>'Oletus suodatus',
+'LBL_STEP_4_TITLE'=>'Kehittynyt suodatus',
+'LBL_STEP_5_TITLE'=>'Pääsytiedot',
+'LBL_SF_COLUMNS'=>'Sarake',
+'LBL_SF_STARTDATE'=>'Alkamispäivä',
+'LBL_SF_ENDDATE'=>'Päättymispäivä',
+'LBL_AF_HDR1'=>'Aseta hakuehdot rajoittaaksesi listausta.',
+'LBL_AF_HDR2'=>'Voit käyttää &quot;or&quot; suodattimia syöttääksesi useita kohteita kolmanteen sarakkeeseen.',
+'LBL_AF_HDR3'=>'Voit syöttää 10 kohdetta, erottaen ne pilkulla. Esimerkiksi: CA, NY, TX, FL etsii CA tai NY or TX tai FL.',
+'LBL_AF_HDR4'=>'Jos "Tapahtuman muoto" on valittuna, anna joku seuraavista arvoista "Soitto","Tapaaminen" tai "Tehtävä".',
+
 //strings added for vtiger 5, date format... 
 'LBL_NONE'=>'Ei mitään', 
 'View_Name'=>'Näytä nimi', 
@@ -127,7 +120,7 @@ following values "Call","Meeting" or "Task".',
 'State'=>'Lääni', 
  
 //Strings added for Accounts module fields 
-'Account Name'=>'Yritys',
+'Account Name'=>'Yritys', 
 'Ticker Symbol'=>'Yritystunnus (pörssi)', 
 'Other Phone'=>'Muu puhelin', 
 'Member Of'=>'Jäsen', 
@@ -175,7 +168,7 @@ following values "Call","Meeting" or "Task".',
  
 //Strings added for Potential module fields 
  
-'Potential Name'=>'Mahdollisuus',
+'Potential Name'=>'Mahdollisuus', 
 'Amount'=>'Summa', 
 'Expected Close Date'=>'Arvioitu päätöspäivä', 
 'Next Step'=>'Seuraava vaihe', 
@@ -219,7 +212,7 @@ following values "Call","Meeting" or "Task".',
  
 'Serial No'=>'Sarjanumero', 
 'Product Sheet'=>'Myyntierä', 
-'GL Account'=>'kirjanpito tili',
+'GL Account'=>'kirjanpito tili', 
  
 //Strings added for Price book module fields 
 'Price Book Name'=>'Hinnasto', 
@@ -258,9 +251,9 @@ following values "Call","Meeting" or "Task".',
 'Missing_required_fields'=>'Pakollinen kenttä on tyhjä', 
 'Details'=>'Yksityiskohdat', 
 'New_Custom_View'=>'Uusi näkymä',
-'Edit_Custom_View'=>'Muokkaa näkymää', 
-'LBL_AF_HDR5'=>'Simple Time Filter allows you to select date based on  
-<b>Organization Created Time</b> or  <b>Organization Modified Time</b>',
+'Edit_Custom_View'=>'Muokkaa näkymää',
+'LBL_AF_HDR5'=>'Yksinkertainen aikasuodatus sallii
+<b>asiakkaan luontiaikaan</b> tai  <b>asiakkaan muokkausaikaan</b> perustuvat valinnat', 
 'Select_Duration'=>'Valitse ajanjakso', 
 'Simple_Time_Filter'=>'Yksinkertainen aikasuodatus', 
 'Start_Date'=>'Aloituspäivä', 
@@ -268,10 +261,10 @@ following values "Call","Meeting" or "Task".',
 'LBL_RULE'=>'Sääntö',
 
 // Added/Updated for vtiger CRM 5.0.4
-'not equal to'=>'Muu kuin',
-'starts with'=>'Alkaa',
+'not equal to'=>'Muu kuin', 
+'starts with'=>'Alkaa', 
 'ends with'=>'Päättyy',
-//'Product Code'=>'Osan numero',
+//'Product Code'=>'Osan numero', 
 
 // Added after 5.0.4 GA
 
@@ -281,6 +274,5 @@ following values "Call","Meeting" or "Task".',
 'LBL_EDIT'=>'Muokkaa',
 'LBL_STATUS_PUBLIC_APPROVE'=>'Hyväksy',
 'LBL_STATUS_PUBLIC_DENY'=>'Kiellä',
-
 ); 
 ?>

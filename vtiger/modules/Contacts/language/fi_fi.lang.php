@@ -14,7 +14,7 @@
  ********************************************************************************/
 /*********************************************************************************
  * $Header: /advent/projects/wesat/vtiger_crm/sugarcrm/modules/Contacts/language/en_us.lang.php,v 1.14 2005/03/24 17:47:43 rank Exp $
- * Description:  Defines the English language pack for Contacts Module
+ * Description:  Defines the English language pack
  * Portions created by SugarCRM are Copyright (C) SugarCRM, Inc.
  * All Rights Reserved.
  * Contributor(s): ______________________________________..
@@ -107,7 +107,7 @@ $mod_strings = Array(
 'NTC_DELETE_CONFIRMATION'=>'Haluatko varmasti poistaa tämän tiedon?',
 'NTC_REMOVE_CONFIRMATION'=>'Haluatko varmasti poistaa tämän asiakkaan tästä tapauksesta?',
 'NTC_REMOVE_DIRECT_REPORT_CONFIRMATION'=>'Are you sure you want to remove this record as a direct report?',
-'ERR_DELETE_RECORD'=>"en_us A record number must be specified to delete the contact.",
+'ERR_DELETE_RECORD'=>"fi_fi A record number must be specified to delete the contact.",
 'NTC_COPY_PRIMARY_ADDRESS'=>'Kopioi ensisijainen osoite vaihtoehtoiseksi osoitteeksi',
 'NTC_COPY_ALTERNATE_ADDRESS'=>'Kopioi vaihtoehtoinen osoite ensisijaiseksi osoitteeksi',
 
@@ -175,7 +175,7 @@ $mod_strings = Array(
 'Contact Image'=>'Yhteyshenkilön kuva',
 'Description'=>'Kuvaus',
 
-// Added vtiger_fields for Add Business Card
+// Added fields for Add Business Card
 'LBL_NEW_CONTACT'=>'Uusi Yhteyshenkilö',
 'LBL_NEW_ACCOUNT'=>'Uusi Asiakas',
 'LBL_NOTE_SUBJECT'=>'Muistion aihe:',
@@ -186,7 +186,7 @@ $mod_strings = Array(
 'LBL_START_DATE'=>'Alkamispäivä:',
 'LBL_START_TIME'=>'Alkamisaika:',
 
-//Added vtiger_field after 4_0_1
+//Added field after 4_0_1
 'Portal User'=>'Portaalin käyttäjä',
 'LBL_CUSTOMER_PORTAL_INFORMATION'=>'Asiakasportaalin tiedot',
 'Support Start Date'=>'Tuen alkamispäivä',
@@ -242,7 +242,7 @@ $mod_strings = Array(
 
 // Module Sequence Numbering
 'Contact Id' => 'Yhteyshenkilön tunniste',
-// END
+// END);
 
 );
 

@@ -13,8 +13,8 @@
  * Contributor(s): ______________________________________.
  ********************************************************************************/
 /*********************************************************************************
- * $Header$
- * Description:  Defines the English language pack for Campaign Module
+ * $Header: /cvsroot/vtigercrm/vtiger_crm/modules/Campaigns/language/en_us.lang.php,v 1.1 2006/01/24 15:43:37 indigoleopard $
+ * Description:  Defines the English language pack
  * Portions created by SugarCRM are Copyright (C) SugarCRM, Inc.
  * All Rights Reserved.
  * Contributor(s): ______________________________________..
@@ -81,11 +81,11 @@ $mod_strings = Array(
 'Good'=>'Hyvä',
 'Average'=>'Keskinkertainen',
 'Poor'=>'Heikko',
-			      
+
 //Module Sequence Numbering
 'Campaign No'=>'Kampanjan nro',
-// status fields 
 // END
+
 );
 
 ?>

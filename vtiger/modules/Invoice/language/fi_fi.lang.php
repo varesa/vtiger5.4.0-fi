@@ -13,8 +13,8 @@
  * Contributor(s): ______________________________________.
  ********************************************************************************/
 /*********************************************************************************
- * $Header$
- * Description:  Defines the English language pack for Invoice module.
+ * $Header: /cvsroot/vtigercrm/vtiger_crm/modules/Invoice/language/en_us.lang.php,v 1.4 2005/05/30 13:06:57 crouchingtiger Exp $
+ * Description:  Defines the English language pack 
  * Portions created by SugarCRM are Copyright (C) SugarCRM, Inc.
  * All Rights Reserved.
  * Contributor(s): ______________________________________..
@@ -86,7 +86,7 @@ $mod_strings = Array(
 'MSG_DUPLICATE' => 'Tämän luominen voi aiheuttaa kaksoiskappaleen. Valitse asiakas allaolevalta listalta tai paina Luo uusi Asiakas-painikeetta luodaksesi uusi asiakas näillä tiedoilla.',
 
 'LBL_INVITEE'=>'Yhteystiedot',
-'ERR_DELETE_RECORD'=>"A record number must be specified to delete the vtiger_account.",
+'ERR_DELETE_RECORD'=>"A record number must be specified to delete the account.",
 
 'LBL_SELECT_ACCOUNT'=>'Valitse asiakas',
 'LBL_GENERAL_INFORMATION'=>'Yleiset tiedot',
@@ -106,7 +106,7 @@ $mod_strings = Array(
 'LBL_NEW_CONTACT'=>'Uusi yhteyshenkilö',
 'LBL_CONTACT_TITLE'=>'Yhteyshenkilö',
 
-//Added vtiger_fields after RC1 - Release
+//Added fields after RC1 - Release
 'LBL_ALL'=>'Kaikki',
 'LBL_PROSPECT'=>'Prospekti',
 'LBL_INVESTOR'=>'Sijoittaja',
@@ -120,9 +120,10 @@ $mod_strings = Array(
 'Quote Name'=>'Tarjous',
 'Vendor Name'=>'Toimittaja',
 'Invoice Terms'=>'Laskutusehdot',
-'Contact Name'=>'Yhteyshenkilö',//to include contact name vtiger_field in Invoice
+'Contact Name'=>'Yhteyshenkilö',//to include contact name field in Invoice
 'Invoice Date'=>'Laskutuspäivä',
 'Sub Total'=>'Yhteensä',
+'Due Date'=>'Eräpäivä',
 'Carrier'=>'Rahti',
 'Type'=>'Tyyppi',
 'Sales Tax'=>'Myyntivero',
@@ -156,7 +157,6 @@ $mod_strings = Array(
 'Pending'=>'Kuluessa',
 'Account Name'=>'Yritys',
 'Terms & Conditions'=>'Toimitusehdot',
-'Terms & Conditions'=>'Toimitusehdot',
 //Quote Info
 'LBL_INVOICE_INFORMATION'=>'Laskun tiedot',
 'LBL_INVOICE'=>'Lasku:',
@@ -189,13 +189,13 @@ $mod_strings = Array(
 'Tax Type'=>'Veron tyyppi',
 'Discount Percent'=>'Alennusprosentti',
 'Discount Amount'=>'Alennussumma',
+'Terms & Conditions'=>'Toimitusehdot',
 'No'=>'Nro',
 'Date'=>'Päivä',
 
 // Added affter 5.0.4 GA
 //Added for Documents module
 'Documents'=>'Dokumentit',
-
 );
 
 ?>

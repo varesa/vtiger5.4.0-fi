@@ -13,8 +13,8 @@
  * Contributor(s): ______________________________________.
  ********************************************************************************/
 /*********************************************************************************
- * $Header$
- * Description:  Defines the English language pack for the RSS module.
+ * $Header: /cvsroot/vtigercrm/vtiger_crm/modules/Rss/language/en_us.lang.php,v 1.1 2005/05/20 07:12:23 venkatraj Exp $
+ * Description:  Defines the English language pack for the Account module.
  * Portions created by SugarCRM are Copyright (C) SugarCRM, Inc.
  * All Rights Reserved.
  * Contributor(s): ______________________________________..
@@ -43,22 +43,16 @@ $mod_strings = Array(
 'LBL_SET_DEFAULT_BUTTON'=>'Aseta oletukseksi',
 'LBL_FEEDS_LIST'=>'Syötelista :',
 'LBL_ERROR_MSG'=>'RSS syötettä ei ole valittu tai proxy asetuksesi estävät niiden lataamisen',
-'LBL_REGRET_MSG'=>'Sorry: It\'Valitettavasti haluamaasi RSS syötettä ei ole saatavilla',
-'LBL_REGRET_MSG'=>'Sorry: It\'Valitettavasti tämän RSS syötteen URL ei löydy',
+'LBL_REGRET_MSG'=>'Valitettavasti haluamaasi RSS syötettä ei ole saatavilla',
+'LBL_REGRET_MSG'=>'Valitettavasti tämän RSS syötteen URL ei löydy',
 
 'UNABLE_TO_SAVE'=>'RSS syötteen URL ei voida tallentaa',
-'UNABLE_TO_SAVE'=>'Url:ia ei voida tallentaa',
-'UNABLE_TO_SAVE'=>'RSS syötteen URL ei voida tallentaa',
-'UNABLE_TO_SAVE'=>'Url:ia ei voida tallentaa',
 
 // Added/Updated for vtiger CRM 5.0.4
 'NOT_A_VALID'=>'RSS syötteen URL ei ole kelvollinen tai proxyn asetukset eivät ole oikein.',
 
 // Added after 5.0.4 GA
 'INVALID_RSS_URL' => 'RSS URL ei ole kelvollinen',
-'UNABLE_TO_SAVE' => 'RSS syötteen URL ei voida tallentaa',
-'UNABLE_TO_SAVE' => 'Url:ia ei voida tallentaa',
-'UNABLE_TO_SAVE' => 'RSS syötteen URL ei voida tallentaa',
 'UNABLE_TO_SAVE' => 'Url:ia ei voida tallentaa',
 
 );

@@ -13,8 +13,8 @@
  * Contributor(s): ______________________________________.
  ********************************************************************************/
 /*********************************************************************************
- * $Header: /advent/projects/wesat/vtiger_crm/vtigercrm/modules/uploads/language/en_us.lang.php,v 1.1 2005/01/20 05:29:32 saraj Exp $
- * Description:  Defines the English language pack for uploads.
+ * $Header: /advent/projects/wesat/vtiger_crm/vtigercrm/modules/uploads/language/en_us.lang.php,v 1.1 2005/01/20 05:29:32 sarajkumar Exp $
+ * Description:  Defines the English language pack
  * Portions created by SugarCRM are Copyright (C) SugarCRM, Inc.
  * All Rights Reserved.
  * Contributor(s): ______________________________________..

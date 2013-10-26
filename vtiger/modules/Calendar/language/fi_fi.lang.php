@@ -13,8 +13,8 @@
  * Contributor(s): ______________________________________.
  ********************************************************************************/
 /*********************************************************************************
- * $Header$
- * Description:  Defines the English pack for Calendar Module
+ * $Header: /advent/projects/wesat/vtiger_crm/vtigercrm/modules/Calendar/language/en_us.lang.php,v 1.16 2005/03/29 09:43:28 gjayakrishnan Exp $
+ * Description:  Defines the English apmt_locationuage pack
  * Portions created by SugarCRM are Copyright (C) SugarCRM, Inc.
  * All Rights Reserved.
  * Contributor(s): ______________________________________..
@@ -40,7 +40,6 @@ $mod_strings = Array(
 'LBL_TIMESETTINGS'=>'Aika asetukset',
 'LBL_HOLDFOLLOWUP'=>'Pidä seurannassa',
 'LBL_CALL' => 'Soita',
-'LBL_CALL' => 'Soitto',
 'LBL_MEET' => 'Tapaaminen',
 'LBL_APPNT' => 'Tapaaminen',
 'LBL_NEW_APPNT' => 'Uusi tapaaminen',
@@ -73,7 +72,6 @@ $mod_strings = Array(
 'LBL_WEEK_BUTTON_KEY' => 'W',
 'LBL_WEEK_BUTTON_TITLE' => 'Viikko [Alt+W]',
 'LBL_WEEKS' => 'Viikot',
-'LBL_WEEKS' => 'Viikoittain',
 'LBL_NEXT_WEEK' => 'seuraava viikko',
 'LBL_LAST_WEEK' => 'edellinen viikko',
 'LBL_4WEEKS_BACK' => '4 viikkoa taaksepäin',
@@ -87,7 +85,6 @@ $mod_strings = Array(
 'LBL_MON' => 'Kuukausi',
 'LBL_MON_BUTTON_KEY' => 'M',
 'LBL_MON_BUTTON_TITLE' => 'Kuukausi [Alt+M]',
-'LBL_MON_BUTTON_TITLE' => 'Vuosi [Alt+Y]',
 'LBL_PREV_MON' => 'Edellinen kuukausi',
 'LBL_NEXT_MON' => 'Seuraava kuukausi',
 
@@ -109,7 +106,7 @@ $mod_strings = Array(
 'LBL_APP_ERR003' =>'Yhteystieto puuttuu!',
 'LBL_APP_ERR004' =>'Aihe puuttuu!',
 'ERR_DELETE_RECORD'=>"A record number must be specified to delete the appointment.",
-'DELETE_CONFIRMATION'=>"Are you sure you want to delete this appointment?",
+'DELETE_CONFIRMATION'=>"Haluatko varmasti poistaa tämän tapaamisen?",
 
 'AppLoc'=> Array('0' => 'Toimistolla'
 			, '1' => 'Poissa'
@@ -121,52 +118,52 @@ $mod_strings = Array(
 
 'cal_month_long'=>array(
 "",
-"January",
-"February",
-"March",
-"April",
-"May",
-"June",
-"July",
-"August",
-"September",
-"October",
-"November",
-"December",
+"Tammikuu",
+"Hekmikuu",
+"Maaliskuu",
+"Huhtikuu",
+"Toukokuu",
+"Kesäkuu",
+"Heinäkuu",
+"Elokuu",
+"Syyskuu",
+"Lokakuu",
+"Marraskuu",
+"Joulukuu",
 ),
 
 'cal_weekdays_short'=>array(
-"Mon",
-"Tue",
-"Wed",
-"Thu",
-"Fri",
-"Sat",
-"Sun",
+"Su",
+"Ma",
+"Ti",
+"Ke",
+"To",
+"Pe",
+"La",
 ),
 'cal_weekdays_long'=>array(
-"Monday",
-"Tuesday",
-"Wednesday",
-"Thursday",
-"Friday",
-"Saturday",
-"Sunday",
+"Sunnuntai",
+"Maanantai",
+"Tiistai",
+"Keskiviikko",
+"Torstai",
+"Perjantai",
+"Lauantai",
 ),
 'cal_month_short'=>array(
 "",
-"Jan",
-"Feb",
+"Tam",
+"Hel",
+"Maa",
+"Huh",
+"Tou",
+"Kes",
+"Hei",
+"Elo",
+"Syy",
+"Lok",
 "Mar",
-"Apr",
-"May",
-"Jun",
-"Jul",
-"Aug",
-"Sep",
-"Oct",
-"Nov",
-"Dec",
+"Jou",
 ),
 
 'LBL_TIME'=>'Aika',
@@ -211,7 +208,6 @@ $mod_strings = Array(
 'LBL_EVERYDAY'=>'Joka päivä',
 'LBL_EVERYWEEK'=>'Joka viikko',
 'LBL_EVERYMON'=>'Joka kuukausi',
-'LBL_WEEKS'=>'Viikot',
 'LBL_WEEKS'=>'Viikoittain',
 'LBL_MONTHS'=>'Kuukausittain',
 'LBL_YEAR'=>'Vuosittain',
@@ -271,7 +267,7 @@ $mod_strings = Array(
 'LBL_OPEN_ACTIVITIES'=>'Avoimet tapahtumat',
 'LBL_ACTIVITY'=>'Tapahtuma:',
 'LBL_HISTORY'=>'Historia',
-'LBL_UPCOMING'=>"My Upcoming and Pending Activities",
+'LBL_UPCOMING'=>"Tulevat ja odottavat tapahtmat",
 'LBL_TODAY'=>'valmis ',
 
 'LBL_NEW_TASK_BUTTON_TITLE'=>'Uusi tehtävä [Alt+N]',
@@ -296,7 +292,7 @@ $mod_strings = Array(
 'LBL_LIST_CLOSE'=>'Sulje',
 'LBL_LIST_STATUS'=>'Tila',
 'LBL_LIST_CONTACT'=>'Yhteys',
-//Added for 4.2 release for Organization column support as shown by Fredy
+//Added for 4.2 release for Account column support as shown by Fredy
 'LBL_LIST_ACCOUNT'=>'Yritys',
 'LBL_LIST_RELATED_TO'=>'Liittyy',
 'LBL_LIST_DUE_DATE'=>'Päättymispäivä',
@@ -314,7 +310,6 @@ $mod_strings = Array(
 
 //Added vtiger_fields after RC1 - Release
 'LBL_ALL'=>'Kaikki',
-'LBL_CALL'=>'Soita',
 'LBL_CALL'=>'Soitto',
 'LBL_MEETING'=>'Tapaamiset',
 'LBL_TASK'=>'Tehtävät',
@@ -353,7 +348,6 @@ $mod_strings = Array(
 'Type'=>'Tyyppi',
 'End Date'=>'Päättymispäivä',
 'Recurrence'=> 'Toistuva tapahtuma',
-'Recurrence'=> 'Toistuva',
 'Recurring Type'=> 'Toistuvuuden muoto',
 //Activities - Notification Error
 'LBL_NOTIFICATION_ERROR'=>'Virhe lähettäessä viestiä : Tarkista lähtevän postipalvelimen asetukset Asetukset -> Lähtevän postipalvelimen asetukset TAI vastaanottajan sähköpostitiliä ei ole määritelty.',
@@ -418,14 +412,13 @@ $mod_strings = Array(
 //this is for task
 'End date'=>'Dead-line',
 'LBL_SET_DATE'=>'Aseta päivä..',
-'LBL_SET_DATE'=>'Aseta päiväys',
-'Recurrence'=>'Toistuva tapahtuma',
 'Recurrence'=>'Toistuva',
 
 //added to send invitation mail Subject.
 'INVITATION'=>' Kutsu ',
 
 // Added/Updated for vtiger CRM 5.0.4
+'LBL_MON_BUTTON_TITLE'=>'Vuosi [Alt+Y]',
 'LBL_SELECT_CONTACT'=>'Valitse yhteystiedot',
 'SHARED_EVENT_DEL_MSG'=>'Käyttäjällä ei ole oikeutta muokata / poistaa tätä jaettua tietuetta.',
 //added to fix ticket#4525
@@ -440,11 +433,10 @@ $mod_strings = Array(
 
 // Repeat Event support for Calendar
 'LBL_UNTIL' => 'Kunnes',
-'LBL_SET_DATE'=>'Aseta päivä..',
 'LBL_SET_DATE'=>'Aseta päiväys',
 
 'LBL_MINE' =>'Minun',
-    
+
 );
 
 ?>

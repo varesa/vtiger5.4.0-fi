@@ -14,7 +14,7 @@
  ********************************************************************************/
 /*********************************************************************************
  * $Header: /advent/projects/wesat/vtiger_crm/sugarcrm/modules/Potentials/language/en_us.lang.php,v 1.18 2005/04/28 14:05:53 ray Exp $
- * Description:  Defines the English language pack for the Potentials module.
+ * Description:  Defines the English language pack for the Account module.
  * Portions created by SugarCRM are Copyright (C) SugarCRM, Inc.
  * All Rights Reserved.
  * Contributor(s): ______________________________________..
@@ -26,9 +26,6 @@ $mod_strings = Array(
 'LBL_SEARCH_FORM_TITLE'=>'Mahdollisuuksien haku',
 'LBL_LIST_FORM_TITLE'=>'Mahdollisuuksien lista',
 'LBL_OPPORTUNITY_NAME'=>'Mahdollisuuden nimi:',
-'LBL_OPPORTUNITY_NAME'=>'Mahdollisuudennimi:',
-'LBL_OPPORTUNITY_NAME'=>'Mahdollisuuden nimi:',
-'LBL_OPPORTUNITY_NAME'=>'Mahdollisuudennimi:',
 'LBL_OPPORTUNITY'=>'Mahdollisuus:',
 'LBL_NAME'=>'Mahdollisuuden nimi',
 'LBL_INVITEE'=>'Yhteystiedot',
@@ -39,9 +36,6 @@ $mod_strings = Array(
 'LBL_LIST_DATE_CLOSED'=>'Arvioitu päätös',
 'LBL_LIST_SALES_STAGE'=>'Myynnin tila',
 
-'LBL_OPPORTUNITY_NAME'=>'Mahdollisuuden nimi:',
-'LBL_OPPORTUNITY_NAME'=>'Mahdollisuudennimi:',
-'LBL_OPPORTUNITY_NAME'=>'Mahdollisuuden nimi:',
 'LBL_OPPORTUNITY_NAME'=>'Mahdollisuudennimi:',
 'LBL_ACCOUNT_NAME'=>'Yritys:',
 'LBL_AMOUNT'=>'Summa:',
@@ -59,7 +53,7 @@ $mod_strings = Array(
 'LBL_NEW_FORM_TITLE'=>'Uusi mahdollisuus',
 
 'ERR_DELETE_RECORD'=>"A record number must be specified to delete the opportunity.",
-'LBL_TOP_OPPORTUNITIES'=>"My Top Open Opportunities",
+'LBL_TOP_OPPORTUNITIES'=>"Tärkeimmät mahdollisuuteni",
 
 'NTC_REMOVE_OPP_CONFIRMATION'=>'Haluatko varmasti poistaa tämän yhteyshenkilön mahdollisuuksistasi?',
 
@@ -91,7 +85,7 @@ $mod_strings = Array(
 'LBL_NEW_CONTACT'=>'Uusi yhteyshenkilö',
 'LBL_CONTACT_TITLE'=>'Yhteyshenkilö',
 
-//Added vtiger_fields after RC1 - Release
+//Added fields after RC1 - Release
 'LBL_ALL'=>'Kaikki',
 'LBL_WON'=>'Voitot',
 'LBL_LOST'=>'Tappiot',

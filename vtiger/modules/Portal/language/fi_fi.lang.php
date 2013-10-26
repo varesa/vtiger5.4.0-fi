@@ -12,7 +12,7 @@
 
 $mod_strings = Array(
 // added for 5.0 beta
-'LBL_BOOKMARKED_URL'=>"BookMarked URL's",
+'LBL_BOOKMARKED_URL'=>"Lisää kirjanmerkki URL:n",
 'LBL_MANAGE_BOOKMARKS'=>'Hallitse kirjanmerkkejä',
 'LBL_BOOKMARK_LIST'=>'Kirjanmerkkilista',
 'LBL_MY_BOOKMARKS'=>'Kirjanmerkkini',

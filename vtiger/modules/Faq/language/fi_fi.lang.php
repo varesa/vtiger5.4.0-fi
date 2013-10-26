@@ -13,8 +13,8 @@
  * Contributor(s): ______________________________________.
  ********************************************************************************/
 /*********************************************************************************
- * $Header$
- * Description:  Defines the English language pack for FAQ Module
+ * $Header: /advent/projects/wesat/vtiger_crm/vtigercrm/modules/Faq/language/en_us.lang.php,v 1.3 2005/03/28 06:35:14 rajeshkannan Exp $
+ * Description:  Defines the English language pack 
  * Portions created by SugarCRM are Copyright (C) SugarCRM, Inc.
  * All Rights Reserved.
  * Contributor(s): ______________________________________..
@@ -81,7 +81,7 @@ $mod_strings = Array(
 'MSG_DUPLICATE' => 'Tämän käyttäjätilin luominen voi aiheuttaa kaksoiskappaleen käyttäjätilistä. Valitse käyttäjätili alla olevasti listasta tai paina Luo uusi FAQ painiketta jatkaasesi uuden käyttäjätilin luomista.',
 
 'LBL_INVITEE'=>'Yhteystiedot',
-'ERR_DELETE_RECORD'=>"A record number must be specified to delete the vtiger_account.",
+'ERR_DELETE_RECORD'=>"A record number must be specified to delete the account.",
 
 'LBL_SELECT_ACCOUNT'=>'Valitse FAQ',
 'LBL_GENERAL_INFORMATION'=>'Yleiset tiedot',
@@ -107,17 +107,17 @@ $mod_strings = Array(
 'Question'=>'Kysymys',
 'Answer'=>'Vastaus',
 'Comments'=>'Kommentit',
-'LBL_COMMENTS'=>'Comments',//give the same value given to the above string 'Comments'
+'LBL_COMMENTS'=>'Kommentit',//give the same value given to the above string 'Comments'
 'Created Time'=>'Luontiaika',
 'Modified Time'=>'Muokkausaika',
 
-//Added vtiger_fields after 4.2 alpha
+//Added fields after 4.2 alpha
 'LBL_TICKETS'=>'Pyynnöt',
 'LBL_FAQ'=>'FAQ',
 'Product Name'=>'Tuote',
 'FAQ Id'=>'FAQ tunnus',
 'Add Comment'=>'Lisää kommenntti',
-'LBL_ADD_COMMENT'=>'Add Comment',//give the same value given to the above string 'Add Comment'
+'LBL_ADD_COMMENT'=>'Lisää kommentti',//give the same value given to the above string 'Add Comment'
 'LBL_COMMENT_INFORMATION'=>'Kommentin tiedot',
 'Status'=>'Tila',
 
@@ -138,6 +138,7 @@ $mod_strings = Array(
 // Module Sequence Numbering
 'Faq No' => 'Faq Nro',
 // END
+
 );
 
 ?>

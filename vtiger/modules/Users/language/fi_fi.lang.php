@@ -14,7 +14,7 @@
  ********************************************************************************/
 /*********************************************************************************
  * $Header: /advent/projects/wesat/vtiger_crm/sugarcrm/modules/Users/language/en_us.lang.php,v 1.18 2005/04/19 14:45:38 ray Exp $
- * Description:  Defines the English language pack for the Users module.
+ * Description:  Defines the English language pack for the Account module.
  ********************************************************************************/
  
 $mod_strings = Array(
@@ -48,6 +48,7 @@ $mod_strings = Array(
 
 
 //added for patch2
+'LBL_GROUP_NAME'=>'Ryhmä',
 'LBL_CURRENCY_NAME'=>'Valuutta',
 
 'LBL_NEW_USER_BUTTON_TITLE'=>'Lisää käyttäjä [Alt+N]',
@@ -205,13 +206,11 @@ $mod_strings = Array(
 'LBL_PROPERTIES'=>'Ominaisuudet',
 
 
-//added to fix the issue #6630
 
 // Added fields in createnewgroup.php
 'LBL_CREATE_NEW_GROUP'=>'Luo uusi ryhmä',
 'LBL_NEW_GROUP'=>'Uusi ryhmä',
 'LBL_EDIT_GROUP'=>'Muokkaa ryhmää',
-'LBL_GROUP_NAME'=>'Ryhmä',
 'LBL_GROUP_NAME'=>'Ryhmän nimi',
 'LBL_GROUP_DETAILS'=>'Ryhmän kuvaus',
 'LBL_MEMBER'=>'Jäsenet',
@@ -552,6 +551,7 @@ $mod_strings = Array(
 'Date Format'=>'Päiväyksen muoto',
 'Tag Cloud'=>'Tagi pilvi',
 'Signature'=>'Allekirjoitus',
+'Notes'=>'Dokumentit',
 'Street Address'=>'Katuosoite',
 'City'=>'Kaupunki',
 'State'=>'Lääni',
@@ -677,14 +677,6 @@ $mod_strings = Array(
 //user-group fixes
 'LBL_GROUPNAME_EXIST' => 'Tämän niminen ryhmä on jo olemassa!',
 'LBL_PROFILENAME_EXIST' => 'Tämän niminen profiili on jo olemassa!',
-
-//Fixed For Asterisk Configration
-
-// Added for Create Custom Fields 
-
-//Time zones-Dont change any value
-    
-	
 );
 
 ?>
