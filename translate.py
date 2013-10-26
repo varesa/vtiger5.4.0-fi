@@ -24,19 +24,16 @@ def add_file(dir, file):
     if "fi_fi" in file:
 	finnish.append((dir,file))
     
-    
 walk_dir(basedir)
 
 en2 = list(os.path.join(x[0], x[1]) for x in english)
 fi2 = list(os.path.join(x[0], x[1]) for x in finnish)
 
-#print("Finnish files: " + ', '.join(list(x[0]+x[1] for x in finnish)))
-#print("English files: " + ', '.join(list(x[0]+x[1] for x in english)))
-
 for file in en2:
     outfile = ""
     if file.replace("en_us", "fi_fi") in fi2:
 	for line in open(file):
+	    line = line.replace('\"', '\'')
 	    r = re.search(".*'(.*)'.*=>.*'(.*)'.*", line)
 	    if not r is None:
 		#print("Field: '" + r.group(1) + "', value: '" + r.group(2) + "'")
@@ -60,7 +57,6 @@ for file in en2:
 		    if translation != "":
 			print("Translated: " + r.group(1) + ": " + r.group(2) + " => " + translation)
 			outfile += re.sub(r"(.*'.*'.*=>.*').*('.*)", r"\1" + translation + r"\2",line) + " // Translated " + time.strftime("%d.%m.%Y")
-			print("x")
 		
 	    else: # A non-translation line
 		outfile += line
@@ -68,9 +64,7 @@ for file in en2:
 	#print(outfile)
 	out = open(file.replace('en_us', 'fi_fi'), 'w')
 	out.write(outfile)
-	out.close()
-	
+	out.close()	
 		        
     else:
 	print("File: " + file + " not found in finnish")
-    
