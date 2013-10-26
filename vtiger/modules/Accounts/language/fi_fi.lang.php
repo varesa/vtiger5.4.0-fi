@@ -14,12 +14,12 @@
  ********************************************************************************/
 /*********************************************************************************
  * $Header: /advent/projects/wesat/vtiger_crm/sugarcrm/modules/Accounts/language/en_us.lang.php,v 1.18 2005/03/19 08:59:20 rank Exp $
- * Description:  Defines the English language pack 
+ * Description:  Defines the English language pack
  * Portions created by SugarCRM are Copyright (C) SugarCRM, Inc.
  * All Rights Reserved.
  * Contributor(s): ______________________________________..
  ********************************************************************************/
- 
+
 $mod_strings = Array(
 'LBL_MODULE_NAME'=>'Asiakkaat',
 'LBL_MODULE_TITLE'=>'Asiakkaat: Pääsivu',
@@ -27,8 +27,8 @@ $mod_strings = Array(
 'LBL_LIST_FORM_TITLE'=>'Asiakaslistalista',
 'LBL_NEW_FORM_TITLE'=>'Uusi asiakas',
 'LBL_MEMBER_ORG_FORM_TITLE'=>'Organisaation jäsen',
-// Label for Top Accounts in Home Page, added for 4.2 GA
-'LBL_TOP_ACCOUNTS'=>'Tärkeimmät asiakkaat', 
+// Label for Top Organizations in Home Page, added for 4.2 GA
+'LBL_TOP_ACCOUNTS'=>'Tärkeimmät asiakkaat',
 'LBL_TOP_AMOUNT'=>'Summa',
 'LBL_LIST_ACCOUNT_NAME'=>'Yritys',
 'LBL_LIST_CITY'=>'Kaupunki',
@@ -84,7 +84,7 @@ $mod_strings = Array(
 'MSG_DUPLICATE' => 'Tämän asiakkaan luominen aiheutta mahdollisesti kaksoiskappaleen. Voit joko valita asiakkaan allaolevasta listasta tai painaa Luo uusi Asiakas-painiketta jatkaaksesi asiakkaan luomista näillä tiedoilla.',
 
 'LBL_INVITEE'=>'Yhteystiedot',
-'ERR_DELETE_RECORD'=>"A record number must be specified to delete the account.",
+'ERR_DELETE_RECORD'=>"A record number must be specified to delete the vtiger_account.",
 
 'LBL_SELECT_ACCOUNT'=>'Valitse asiakas',
 'LBL_GENERAL_INFORMATION'=>'Yleiset tiedot',
@@ -104,7 +104,7 @@ $mod_strings = Array(
 'LBL_NEW_CONTACT'=>'Uusi yhteyshenkilö',
 'LBL_CONTACT_TITLE'=>'Yhteyshenkilö',
 
-//Added fields after RC1 - Release
+//Added vtiger_fields after RC1 - Release
 'LBL_ALL'=>'Kaikki',
 'LBL_PROSPECT'=>'Tulevaisuudennäkymä',
 'LBL_INVESTOR'=>'Sijoittaja',
@@ -218,7 +218,7 @@ $mod_strings = Array(
 'LBL_MAILER_EXPORT_CONTACTS_TYPE'=>'Valitse yhteyshenkilöt:',
 'LBL_MAILER_EXPORT_CONTACTS_DESCR'=>'Yhteyshenkilöistä voidaan valita myös "Omat kentät" sekä joitakin standardi kenttiä.',
 'LBL_MAILER_EXPORT_RESULTS_TYPE'=>'Valitse vientitapa:',
-'LBL_MAILER_EXPORT_RESULTS_DESCR'=>'The data will gathered from the Accounts and their Contacts, that were returned
+'LBL_MAILER_EXPORT_RESULTS_DESCR'=>'The data will gathered from the Organizations and their Contacts, that were returned
  from the previous search.',
 'LBL_EXPORT_RESULTS_EMAIL' => 'Vie sähköpostit',
 'LBL_EXPORT_RESULTS_EMAIL_CORP'=>'Export E-Mail data, using "Company Email" from the Account if the Contacts "Email" is empty',
@@ -234,8 +234,8 @@ $mod_strings = Array(
 'Account No'=>'Yrityksen Nro',
 // END
 
-// Account Hierarchy
-'LBL_SHOW_ACCOUNT_HIERARCHY' => 'Näytä yrityksen hierarkia', 
+// Organization Hierarchy
+'LBL_SHOW_ACCOUNT_HIERARCHY' => 'Näytä yrityksen hierarkia',
 
 );
 

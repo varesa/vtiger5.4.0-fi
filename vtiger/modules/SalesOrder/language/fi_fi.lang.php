@@ -13,8 +13,8 @@
  * Contributor(s): ______________________________________.
  ********************************************************************************/
 /*********************************************************************************
- * $Header: /cvsroot/vtigercrm/vtiger_crm/modules/SalesOrder/language/en_us.lang.php,v 1.2 2005/12/27 12:28:44 saraj Exp $
- * Description:  Defines the English language pack 
+ * $Header$
+ * Description:  Defines the English language pack for Sales Order
  * Portions created by SugarCRM are Copyright (C) SugarCRM, Inc.
  * All Rights Reserved.
  * Contributor(s): ______________________________________..
@@ -84,7 +84,7 @@ $mod_strings = Array(
 'MSG_DUPLICATE' => 'Tämän asiakkaan tekeminen voi luoda kaksoiskappaleen. Valitse asiakas alla olevasta listasta tai paina Luo uusi Asiakas-painiketta jatkaaksesi asiakkaan luomista näillä tiedoilla.',
 
 'LBL_INVITEE'=>'Yhteystiedot',
-'ERR_DELETE_RECORD'=>"A record number must be specified to delete the account.",
+'ERR_DELETE_RECORD'=>"A record number must be specified to delete the vtiger_account.",
 
 'LBL_SELECT_ACCOUNT'=>'Valitse asiakas',
 'LBL_GENERAL_INFORMATION'=>'Yleiset tiedot',
@@ -104,7 +104,7 @@ $mod_strings = Array(
 'LBL_NEW_CONTACT'=>'Uusi yhteyshenkilö',
 'LBL_CONTACT_TITLE'=>'Yhteystiedot',
 
-//Added fields after RC1 - Release
+//Added vtiger_fields after RC1 - Release
 'LBL_ALL'=>'Kaikki',
 'LBL_PROSPECT'=>'Prospekti',
 'LBL_INVESTOR'=>'Sijoittaja',
@@ -155,6 +155,7 @@ $mod_strings = Array(
 'Pending'=>'Kuluessa',
 'Account Name'=>'Yritys',
 'Terms & Conditions'=>'Toimitusehdot',
+'Terms & Conditions'=>'Toimitusehdot',
 //Quote Info
 'LBL_SO_INFORMATION'=>'Myyntitilauksen tiedot',
 'LBL_SO'=>'Myyntitilaus:',
@@ -185,12 +186,13 @@ $mod_strings = Array(
 'Cancelled'=>'Peruttu',
 'Adjustment'=>'Asetus',
 'Sub Total'=>'Välisumma',
+'AutoCreated'=>'Automaattisesti luotu',
+
 
 //Added for Reports (5.0.4)
 'Tax Type'=>'Veron muoto',
 'Discount Percent'=>'Alennusprosentti',
 'Discount Amount'=>'Alennussumma',
-'Terms & Conditions'=>'Toimitusehdot',
 'S&H Amount'=>'Käsittelykulut',
 
 //Added after 5.0.4 GA
@@ -203,6 +205,7 @@ $mod_strings = Array(
 'End Period' => 'Päättymis jakso',
 'Payment Duration' => 'Maksun kesto',
 'Invoice Status' => 'Laskun tila',
+
 
 );
 

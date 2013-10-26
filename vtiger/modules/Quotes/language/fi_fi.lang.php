@@ -13,8 +13,8 @@
  * Contributor(s): ______________________________________.
  ********************************************************************************/
 /*********************************************************************************
- * $Header: /cvsroot/vtigercrm/vtiger_crm/modules/Quotes/language/en_us.lang.php,v 1.3 2005/05/30 12:35:36 crouchingtiger Exp $
- * Description:  Defines the English language pack 
+ * $Header$
+ * Description:  Defines the English language pack for Quotes module.
  * Portions created by SugarCRM are Copyright (C) SugarCRM, Inc.
  * All Rights Reserved.
  * Contributor(s): ______________________________________..
@@ -81,7 +81,7 @@ $mod_strings = Array(
 'MSG_DUPLICATE' => 'Tämän asiakkaan tekeminen luo mahdollisesti kaksoiskappaleen. Voit valita asiakkaan alla olevasta listasta tai paina Luo uusi Asiakas-painiketta luodaksesi asiakas näillä tiedoilla.',
 
 'LBL_INVITEE'=>'Yhteystiedot',
-'ERR_DELETE_RECORD'=>"A record number must be specified to delete the account.",
+'ERR_DELETE_RECORD'=>"A record number must be specified to delete the vtiger_account.",
 
 'LBL_SELECT_ACCOUNT'=>'Valitse yritys',
 'LBL_GENERAL_INFORMATION'=>'Yleiset tiedot',
@@ -144,6 +144,7 @@ $mod_strings = Array(
 'Description'=>'Kuvaus',
 'Account Name'=>'Yritys',
 'Terms & Conditions'=>'Toimitusehdot',
+'Terms & Conditions'=>'Toimitusehdot',
 //Quote Info
 'LBL_QUOTE_INFORMATION'=>'Tarjouksen tiedot',
 'LBL_TERMS_INFORMATION'=>'Toimitusehdot',
@@ -177,12 +178,12 @@ $mod_strings = Array(
 'Tax Type'=>'Veron muoto',
 'Discount Percent'=>'Alennusprosentti',
 'Discount Amount'=>'Alennussumma',
-'Terms & Conditions'=>'Toimitusehdot',
 'Adjustment'=>'Tarkennukset',
 'S&H Amount'=>'Käsittelykulut',
 
-
+//Added after 5.0.4 GA
 'Quote No'=>'Tarjouksen Nro',
+
 );
 
 ?>

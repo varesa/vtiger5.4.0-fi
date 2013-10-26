@@ -14,7 +14,7 @@
  ********************************************************************************/
 /*********************************************************************************
  * $Header: /advent/projects/wesat/vtiger_crm/sugarcrm/modules/Emails/language/en_us.lang.php,v 1.17 2005/03/28 06:31:38 rank Exp $
- * Description:  Defines the English language pack for the Account module.
+ * Description:  Defines the English language pack for the Webmail.
  ********************************************************************************/
 
 $mod_strings = Array(
@@ -30,9 +30,10 @@ $mod_strings = Array(
 'LBL_LIST_DATE'=>'Lähetyspäivä',
 'LBL_LIST_TIME'=>'Lähetysaika',
 'LBL_MOVE_TO'=>'Siirrä',
+'LBL_MOVE_TO'=>'Siirrä...',
 'LBL_DELETE'=>'Poista',
 
-'ERR_DELETE_RECORD'=>"A record number must be specified to delete the account.",
+'ERR_DELETE_RECORD'=>"A record number must be specified to delete the vtiger_account.",
 'LBL_DATE_SENT'=>'Lähetyspäivä:',
 'LBL_SUBJECT'=>'Aihe:',
 'LBL_DATE_AND_TIME'=>'Lähetys päivä ja aika:',
@@ -99,7 +100,7 @@ $mod_strings = Array(
 'LBL_NEW_ACCOUNT'=>'Uusi asiakas',
 'LBL_ACCOUNT_TITLE'=>'Asiakkaat',
 
-// Added fields after vtiger4 - Beta
+// Added vtiger_fields after vtiger4 - Beta
 'LBL_USER_TITLE'=>'Käyttäjät',
 'LBL_NEW_USER'=>'Uusi käyttäjä',
 
@@ -140,6 +141,7 @@ $mod_strings = Array(
 'LBL_CLICK_HERE' => 'Paina tästä ',
 'LBL_GOTO_EMAILS_MODULE' => ' siirry sähköpostimoduliin',
 'LBL_NO_EMAILS'=>'Kansiossa ei ole viestejä',
+'LBL_MOVE_TO'=>'Siirrä',
 'LBL_MOVE_TO'=>'Siirrä...',
 'LBL_DEL'=>'Poista ',
 'LABEL_FROM'=>'Keneltä',
@@ -176,6 +178,7 @@ $mod_strings = Array(
 'LBL_THERE_ARE'=>'Siellä on ', 
 'LBL_ATTACHMENTS_TO_CHOOSE'=>' liitteitä valittavana',
 'LBL_ATTACHMENTS'=>'Liitetiedostot', 
+
 
 );
 ?>

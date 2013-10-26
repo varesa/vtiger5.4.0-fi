@@ -14,7 +14,7 @@
  ********************************************************************************/
 /*********************************************************************************
  * $Header: /advent/projects/wesat/vtiger_crm/sugarcrm/modules/Home/language/en_us.lang.php,v 1.5 2005/03/04 15:18:47 jack Exp $
- * Description:  Defines the English language pack 
+ * Description:  Defines the English language pack for Home Module.
  ********************************************************************************/
  
 $mod_strings = Array(
@@ -119,6 +119,10 @@ $mod_strings = Array(
 'MSG_NO_FILTERS' => 'Ei suotimia saatavilla',
 'MSG_NO_FIELDS' => 'Ei kenttiä saatavilla',
 
+//Customization Phase 6 -- Monolithic
+//END
+
+//added for Default Widgets
 );
 
 ?>

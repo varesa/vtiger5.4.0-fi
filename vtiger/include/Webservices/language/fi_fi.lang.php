@@ -16,4 +16,9 @@ $app_strings = array (
 	'SINGLE_DocumentFolders'=>'Dokumenttihakemisto',
 	'SINGLE_Currency'=>'Valuutta',
 );
+
+$webservice_strings = array(
+	'LBL_NEW_PASSWORD_MISMATCH' => "New Password and confirm password don't match",
+);
+
 ?>

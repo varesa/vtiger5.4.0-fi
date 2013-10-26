@@ -13,8 +13,8 @@
  * Contributor(s): ______________________________________.
  ********************************************************************************/
 /*********************************************************************************
- * $Header: /advent/projects/wesat/vtiger_crm/sugarcrm/modules/HelpDesk/language/en_us.lang.php,v 1.20 2005/03/28 19:31:06 rank Exp $
- * Description:  Defines the English language pack
+ * $Header$
+ * Description:  Defines the English language pack for Help Desk
  * Portions created by SugarCRM are Copyright (C) SugarCRM, Inc.
  * All Rights Reserved.
  * Contributor(s): ______________________________________..
@@ -27,6 +27,7 @@ $mod_strings = Array(
 'LBL_ACCOUNT_NAME'=>'Asiakas',
 'LBL_CONTACT_NAME'=>'Yhteyshenkilö',
 'LBL_SUBJECT'=>'Aihe',
+'LBL_SUBJECT'=>'Aihe : ',
 'LBL_NEW_FORM_TITLE' => 'Uusi pyyntö',
 'LBL_DESCRIPTION'=>'Kuvaus',
 'NTC_DELETE_CONFIRMATION'=>'Haluatko varmasti poistaa tämän?',
@@ -62,12 +63,12 @@ $mod_strings = Array(
 'LBL_AUTHOR'=>'Tekijä',
 'LBL_QUESTION'=>'Tutkija',
 
-//Added fields for File Attachment and Mail send in Tickets
+//Added vtiger_fields for File Attachment and Mail send in Tickets
 'LBL_ATTACHMENTS'=>'Liitteet',
 'LBL_NEW_ATTACHMENT'=>'Uusi liite',
 'LBL_SEND_MAIL'=>'Lähetä sähköpostina',
 
-//Added fields for search option  in TicketsList -- 4Beta
+//Added vtiger_fields for search option  in TicketsList -- 4Beta
 'LBL_CREATED_DATE'=>'Luonti päivä',
 'LBL_IS'=>'on',
 'LBL_IS_NOT'=>'ei ole',
@@ -76,7 +77,7 @@ $mod_strings = Array(
 'LBL_STATISTICS'=>'Tilastot',
 'LBL_TICKET_ID'=>'Pyynnön tunnus',
 'LBL_MY_TICKETS'=>'Pyyntöni',
-'LBL_MY_FAQ'=>'Minun FAQ',
+"LBL_MY_FAQ"=>"My Faq's",
 'LBL_ESTIMATED_FINISHING_TIME'=>'Arvioitu valmistumisaika',
 'LBL_SELECT_TICKET'=>'Valitse pyyntö',
 'LBL_CHANGE_OWNER'=>'Vaihda omistaja',
@@ -86,21 +87,21 @@ $mod_strings = Array(
 'LBL_TICKET_CATEGORY'=>'Ryhmä',
 'LBL_TICKET_PRIORITY'=>'Kiireellisyys',
 
-//Added fields after 4 -- Beta
+//Added vtiger_fields after 4 -- Beta
 'LBL_NEW_TICKET'=>'Uusi pyyntö',
 'LBL_TICKET_INFORMATION'=>'Pyynnön tiedot',
 
 'LBL_LIST_FORM_TITLE'=>'Pyyntölista',
 'LBL_SEARCH_FORM_TITLE'=>'Pyyntöjen haku',
 
-//Added fields after RC1 - Release
+//Added vtiger_fields after RC1 - Release
 'LBL_CHOOSE_A_VIEW'=>'Valitse näkymä...',
 'LBL_ALL'=>'Kaikki',
 'LBL_LOW'=>'Alhaiset',
 'LBL_MEDIUM'=>'Normaalit',
 'LBL_HIGH'=>'Korkeat',
 'LBL_CRITICAL'=>'Kriittiset',
-//Added fields for 4GA
+//Added vtiger_fields for 4GA
 'Assigned To'=>'Ohjattu',
 'Contact Name'=>'Yhteyshenkilö',
 'Priority'=>'Kiireellisyys',
@@ -122,11 +123,11 @@ $mod_strings = Array(
 'LBL_PRIORITIES'=>'Vaikutus',
 'LBL_SUPPORTERS'=>'Tukijat',
 
-//Added fields after 4_0_1
+//Added vtiger_fields after 4_0_1
 'LBL_TICKET_RESOLUTION'=>'Ratkaisun tiedot',
 'Solution'=>'Ratkaisu',
 'Add Comment'=>'Lisää kommentti',
-'LBL_ADD_COMMENT'=>'Lisää kommentti',//give the same value given to the above string 'Add Comment'
+'LBL_ADD_COMMENT'=>'Add Comment',//give the same value given to the above string 'Add Comment'
 
 //Added for 4.2 Release -- CustomView
 'Ticket ID'=>'Pyynnöntunnus',
@@ -177,8 +178,10 @@ $mod_strings = Array(
 'LBL_PORTAL_BODY_MAILINFO'=> 'Pyynnön',
 'LBL_DETAIL' => 'yksityiskohdat ovat :',
 'LBL_REGARDS'=> 'Terveisin',
+'LBL_REGARDS'=> 'Ystävällisin terveisin',
 'LBL_TEAM'=> 'vTiger helpdesk',
 'LBL_TICKET_DETAILS' => 'Pyynnön yksityiskohdat',
+'LBL_SUBJECT' => 'Aihe',
 'LBL_SUBJECT' => 'Aihe : ',
 'created' => 'luotu',
 'replied' => 'vastattu',
@@ -187,19 +190,19 @@ $mod_strings = Array(
 'link' => 'Voit käyttää seuraavaa linkkiä nähdäksesi vastauksen:',
 'Thanks' => 'Ystävällisin terveisin',
 'Support_team' => 'vTiger tukipalvelu',
-
 // Added/Updated for vtiger CRM 5.0.4
 
 //this label for customerportal.
-'LBL_STATUS_CLOSED' =>'Suljettu',//Do not convert this label. This is used to check the status. If the status 'Closed' is changed in vtigerCRM server side then you have to change in customerportal language file also.
+'LBL_STATUS_CLOSED' =>'Closed',//Do not convert this label. This is used to check the status. If the status 'Closed' is changed in vtigerCRM server side then you have to change in customerportal language file also.
 'LBL_STATUS_UPDATE' => 'Pyynnön tila on vaihdettu',
 'LBL_COULDNOT_CLOSED' => 'Pyyntöä ei voitu',
 'LBL_CUSTOMER_COMMENTS' => 'Asiakas on toimittanut lisätietoa:',
 'LBL_RESPOND'=> 'Vastaa yllä olevaan viestiin mahdollisimman pian.',
+'LBL_REGARDS' =>'Terveisin',
 'LBL_REGARDS' =>'Ystävällisin terveisin',
 'LBL_SUPPORT_ADMIN' => 'eTuen hallinta',
 'LBL_RESPONDTO_TICKETID' =>'Vastaa pyyntöön',
-'LBL_CUSTOMER_PORTAL' => 'asiakasportaalissa - Kiireellinen', 
+'LBL_CUSTOMER_PORTAL' => 'asiakasportaalissa - Kiireellinen',
 'LBL_LOGIN_DETAILS' => 'Tässä on asiakasportaaliin kirjautumiseen tarvittavat tiedot :',
 'LBL_MAIL_COULDNOT_SENT' =>'Sähköpostia ei voitu lähettää',
 'LBL_USERNAME' => 'Käyttäjätunnus :',
@@ -216,6 +219,8 @@ $mod_strings = Array(
 // Module Sequence Numbering
 'Ticket No' => 'Pyynnön Nro',
 // END
+
+
 );
 
 ?>

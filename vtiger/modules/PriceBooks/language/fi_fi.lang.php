@@ -34,7 +34,7 @@ $mod_strings = array(
 
 // Module Sequence Numbering
 'PriceBook No' => 'Hinnaston Nro',
-// END);
+// END
 );
 
 

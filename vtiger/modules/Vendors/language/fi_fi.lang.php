@@ -66,5 +66,9 @@ $mod_strings = array(
 // Module Sequence Numbering
 'Vendor No' => 'Toimittaja Nro',
 // END
+
+/*
+ * 5.2.0 changes 
+ */
 );
 ?>
