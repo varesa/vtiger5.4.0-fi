@@ -3,6 +3,7 @@
 import os
 import sys
 import re
+import time
 
 basedir = "vtiger/"
 
@@ -58,7 +59,7 @@ for file in en2:
 		        
 		    if translation != "":
 			print("Translated: " + r.group(1) + ": " + r.group(2) + " => " + translation)
-			outfile += re.sub(r"(.*'.*'.*=>.*').*('.*)", r"\1" + translation + r"\2",line) + " // Translated "
+			outfile += re.sub(r"(.*'.*'.*=>.*').*('.*)", r"\1" + translation + r"\2",line) + " // Translated " + time.strftime("%d.%m.%Y")
 			print("x")
 		
 	    else: # A non-translation line
