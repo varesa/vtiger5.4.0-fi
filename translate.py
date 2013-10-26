@@ -56,10 +56,12 @@ for file in en2:
 		        
 		    if translation != "":
 			print("Translated: " + r.group(1) + ": " + r.group(2) + " => " + translation)
-			outfile += re.sub(r"(.*'.*'.*=>.*').*('.*)", r"\1" + translation + r"\2",line) + " // Translated " + time.strftime("%d.%m.%Y")
+			outfile += re.sub(r"(.*'.*'.*=>.*').*('.*)", r"\1" + translation + r"\2",line)[:-1] + " // Translated " + time.strftime("%d.%m.%Y") + '\n'
 		
 	    else: # A non-translation line
 		outfile += line
+	
+	    print(outfile)
 	
 	#print(outfile)
 	out = open(file.replace('en_us', 'fi_fi'), 'w')
