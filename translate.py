@@ -46,6 +46,7 @@ for file in en2:
 		
 		translated = 0
 		for line2 in open(file.replace("en_us", "fi_fi")):
+		    line2 = line2.replace('"', '\'')
 		    r2 = re.search(".*'(" + r.group(1) + ")'.*=>.*'(.*)'.*,(.*)", line2)
 		    if not r2 is None:
 			print("Found translation for \"" + r.group(2) + "\" (" + r.group(1) + "): " + r2.group(2))
