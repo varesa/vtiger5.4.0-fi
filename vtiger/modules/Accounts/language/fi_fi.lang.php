@@ -1,9 +1,9 @@
 <?php
 /*********************************************************************************
  * The contents of this file are subject to the SugarCRM Public License Version 1.1.2
- * ('License'); You may not use this file except in compliance with the
+ * ("License"); You may not use this file except in compliance with the
  * License. You may obtain a copy of the License at http://www.sugarcrm.com/SPL
- * Software distributed under the License is distributed on an  'AS IS'  basis,
+ * Software distributed under the License is distributed on an  "AS IS"  basis,
  * WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for
  * the specific language governing rights and limitations under the License.
  * The Original Code is:  SugarCRM Open Source
@@ -14,12 +14,12 @@
  ********************************************************************************/
 /*********************************************************************************
  * $Header: /advent/projects/wesat/vtiger_crm/sugarcrm/modules/Accounts/language/en_us.lang.php,v 1.18 2005/03/19 08:59:20 rank Exp $
- * Description:  Defines the English language pack
+ * Description:  Defines the English language pack 
  * Portions created by SugarCRM are Copyright (C) SugarCRM, Inc.
  * All Rights Reserved.
  * Contributor(s): ______________________________________..
  ********************************************************************************/
-
+ 
 $mod_strings = Array(
 'LBL_MODULE_NAME'=>'Asiakkaat',
 'LBL_MODULE_TITLE'=>'Asiakkaat: Pääsivu',
@@ -27,8 +27,8 @@ $mod_strings = Array(
 'LBL_LIST_FORM_TITLE'=>'Asiakaslistalista',
 'LBL_NEW_FORM_TITLE'=>'Uusi asiakas',
 'LBL_MEMBER_ORG_FORM_TITLE'=>'Organisaation jäsen',
-// Label for Top Organizations in Home Page, added for 4.2 GA
-'LBL_TOP_ACCOUNTS'=>'Tärkeimmät asiakkaat',
+// Label for Top Accounts in Home Page, added for 4.2 GA
+'LBL_TOP_ACCOUNTS'=>'Tärkeimmät asiakkaat', 
 'LBL_TOP_AMOUNT'=>'Summa',
 'LBL_LIST_ACCOUNT_NAME'=>'Yritys',
 'LBL_LIST_CITY'=>'Kaupunki',
@@ -84,6 +84,7 @@ $mod_strings = Array(
 'MSG_DUPLICATE' => 'Tämän asiakkaan luominen aiheutta mahdollisesti kaksoiskappaleen. Voit joko valita asiakkaan allaolevasta listasta tai painaa Luo uusi Asiakas-painiketta jatkaaksesi asiakkaan luomista näillä tiedoilla.',
 
 'LBL_INVITEE'=>'Yhteystiedot',
+'ERR_DELETE_RECORD'=>"A record number must be specified to delete the account.",
 
 'LBL_SELECT_ACCOUNT'=>'Valitse asiakas',
 'LBL_GENERAL_INFORMATION'=>'Yleiset tiedot',
@@ -103,7 +104,7 @@ $mod_strings = Array(
 'LBL_NEW_CONTACT'=>'Uusi yhteyshenkilö',
 'LBL_CONTACT_TITLE'=>'Yhteyshenkilö',
 
-//Added vtiger_fields after RC1 - Release
+//Added fields after RC1 - Release
 'LBL_ALL'=>'Kaikki',
 'LBL_PROSPECT'=>'Tulevaisuudennäkymä',
 'LBL_INVESTOR'=>'Sijoittaja',
@@ -215,12 +216,12 @@ $mod_strings = Array(
 // mailer export
 'LBL_MAILER_EXPORT' => 'Sähköpostien vienti',
 'LBL_MAILER_EXPORT_CONTACTS_TYPE'=>'Valitse yhteyshenkilöt:',
-'LBL_MAILER_EXPORT_CONTACTS_DESCR'=>'Contacts can also be selected via 'Custom Fields'Yhteyshenkilöistä voidaan valita myös "Omat kentät" sekä joitakin standardi kenttiä.',
+'LBL_MAILER_EXPORT_CONTACTS_DESCR'=>'Yhteyshenkilöistä voidaan valita myös "Omat kentät" sekä joitakin standardi kenttiä.',
 'LBL_MAILER_EXPORT_RESULTS_TYPE'=>'Valitse vientitapa:',
-'LBL_MAILER_EXPORT_RESULTS_DESCR'=>'The data will gathered from the Organizations and their Contacts, that were returned
+'LBL_MAILER_EXPORT_RESULTS_DESCR'=>'The data will gathered from the Accounts and their Contacts, that were returned
  from the previous search.',
 'LBL_EXPORT_RESULTS_EMAIL' => 'Vie sähköpostit',
-'LBL_EXPORT_RESULTS_EMAIL_CORP'=>'Export E-Mail data, using 'Company Email' from the Organization if the Contacts 'Email'Export E-Mail data, using "Company Email" from the Account if the Contacts "Email" is empty',
+'LBL_EXPORT_RESULTS_EMAIL_CORP'=>'Export E-Mail data, using "Company Email" from the Account if the Contacts "Email" is empty',
 'LBL_EXPORT_RESULTS_FULL'=>'Vie tiedot: yhteyshenkilöt, sähköpostit, yrityksen nimen, osoittee ja puhelinnumeron yms.',
 'LBL_EXPORT_RESULTS_GO'=>'Vie',
 'LBL_MAILER_EXPORT_IGNORE' => '--hylkää--',
@@ -233,8 +234,8 @@ $mod_strings = Array(
 'Account No'=>'Yrityksen Nro',
 // END
 
-// Organization Hierarchy
-'LBL_SHOW_ACCOUNT_HIERARCHY' => 'Näytä yrityksen hierarkia',
+// Account Hierarchy
+'LBL_SHOW_ACCOUNT_HIERARCHY' => 'Näytä yrityksen hierarkia', 
 
 );
 
