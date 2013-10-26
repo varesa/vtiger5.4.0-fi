@@ -42,8 +42,6 @@ for file in en2:
 	    line = line.replace('\"', '\'')
 	    r = re.search(".*'(.*)'.*=>.*'(.*)'.*", line)
 	    if not r is None:
-		#print("Field: '" + r.group(1) + "', value: '" + r.group(2) + "'")
-		
 		translated = 0
 		for line2 in open(file.replace("en_us", "fi_fi")):
 		    line2 = line2.replace('"', '\'')
@@ -52,6 +50,7 @@ for file in en2:
 			print("Found translation for \"" + r.group(2) + "\" (" + r.group(1) + "): " + r2.group(2))
 			translated = 1
 			outfile += re.sub(r"(.*'.*'.*=>.*').*('.*)", r"\g<1>" + r2.group(2) + r"\g<2>", line)[:-1] + r2.group(3) + "\n"
+			break
 			
 		if translated is 0:
 		    print("No Finnish translation")
