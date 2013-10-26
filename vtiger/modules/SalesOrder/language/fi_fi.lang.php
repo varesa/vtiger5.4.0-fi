@@ -84,7 +84,6 @@ $mod_strings = Array(
 'MSG_DUPLICATE' => 'Tämän asiakkaan tekeminen voi luoda kaksoiskappaleen. Valitse asiakas alla olevasta listasta tai paina Luo uusi Asiakas-painiketta jatkaaksesi asiakkaan luomista näillä tiedoilla.',
 
 'LBL_INVITEE'=>'Yhteystiedot',
-'ERR_DELETE_RECORD'=>'Tietueen numero täytyy antaa ennen poistamista', // Translated 26.10.2013
 
 'LBL_SELECT_ACCOUNT'=>'Valitse asiakas',
 'LBL_GENERAL_INFORMATION'=>'Yleiset tiedot',
