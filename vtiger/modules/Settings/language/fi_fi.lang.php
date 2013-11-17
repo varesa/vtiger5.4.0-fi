@@ -1200,10 +1200,5 @@ $mod_strings = Array(
 //FieldFormulas
 'LBL_FIELDFORMULAS' => 'Field Formulas',
 'LBL_FIELDFORMULAS_DESCRIPTION' => 'Add custom equations to custom fields',
-'LBL_CRM_SETTINGS'  => 'vTiger asetukset',
-
-'LBL_PICKLIST_DEPENDENCY_SETUP' => 'Valintalistan riippuvuudet',
-'LBL_MENU_EDITOR' => 'Valikkoeditori',
-
 );
 ?>
